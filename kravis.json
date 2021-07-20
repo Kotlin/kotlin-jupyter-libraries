@@ -1,16 +1,10 @@
 {
   "description": "Kotlin grammar for data visualization",
   "properties": {
-    "v": "0.7.4"
+    "v": "0.8.1"
   },
   "link": "https://github.com/holgerbrandl/kravis",
   "dependencies": [
     "com.github.holgerbrandl:kravis:$v"
-  ],
-  "imports": [
-    "kravis.*"
-  ],
-  "renderers": {
-    "kravis.GGPlot": "$it.show()"
-  }
+  ]
 }
