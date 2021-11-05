@@ -1,7 +1,7 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
   "properties": {
-    "api": "3.0.2",
+    "api": "3.1.0",
     "lib": "2.1.0",
     "js": "2.1.0",
     "isolatedFrame": ""
