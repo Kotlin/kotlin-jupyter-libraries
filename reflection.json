@@ -1,0 +1,9 @@
+{
+  "description": "Imports for Kotlin Reflection",
+  "link": "https://kotlinlang.org/docs/reflection.html",
+  "imports": [
+    "kotlin.reflect.*",
+    "kotlin.reflect.jvm.*",
+    "kotlin.reflect.full.*"
+  ]
+}
