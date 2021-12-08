@@ -1,0 +1,13 @@
+{
+  "description": "A combinatorics library for Kotlin",
+  "properties": {
+    "v": "1.6.0"
+  },
+  "link": "https://github.com/shiguruikai/combinatoricskt",
+  "dependencies": [
+    "com.github.shiguruikai:combinatoricskt:$v"
+  ],
+  "imports": [
+    "com.github.shiguruikai.combinatoricskt.*"
+  ]
+}
