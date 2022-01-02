@@ -1,7 +1,7 @@
 {
   "description": "kalasim is a discrete event simulator",
   "properties": {
-    "v": "0.7.91-SNAPSHOT"
+    "v": "0.7.91"
   },
   "repositories": [
     "https://github.com/holgerbrandl/kalasim/"
