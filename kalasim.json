@@ -1,0 +1,10 @@
+{
+  "description": "Discrete event simulator",
+  "properties": {
+    "v": "0.7.92"
+  },
+  "link": "https://www.kalasim.org",
+  "dependencies": [
+    "com.github.holgerbrandl:kalasim:$v"
+  ]
+}
