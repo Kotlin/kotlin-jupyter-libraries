@@ -1,9 +1,9 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
   "properties": {
-    "api": "3.1.1",
-    "lib": "2.2.1",
-    "js": "2.2.1",
+    "api": "3.2.0",
+    "lib": "2.3.0",
+    "js": "2.3.0",
     "isolatedFrame": ""
   },
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
@@ -26,7 +26,8 @@
     "jetbrains.letsPlot.tooltips.tooltips_none",
     "jetbrains.letsPlot.bistro.corr.CorrPlot",
     "jetbrains.letsPlot.tooltips.layerTooltips",
-    "jetbrains.letsPlot.tooltips.tooltipsNone"
+    "jetbrains.letsPlot.tooltips.tooltipsNone",
+    "jetbrains.letsPlot.intern.toSpec"
   ],
   "init": [
     "import jetbrains.letsPlot.LetsPlot",
