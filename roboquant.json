@@ -9,8 +9,9 @@
   ],
   "dependencies": [
     "org.roboquant:roboquant-core:$v",
+    "org.roboquant:roboquant-jupyter:$v",
     "org.roboquant:roboquant-extra:$v",
-    "org.roboquant:roboquant-crypto:$v"
+    "org.roboquant:roboquant-crypto:$v",
+    "org.roboquant:roboquant-ta:$v"
   ]
 }
-
