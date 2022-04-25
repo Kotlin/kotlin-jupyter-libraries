@@ -2,10 +2,18 @@
   "description": "Kotlin for Apache® Spark™",
   "properties": {
     "spark": "3.2",
-    "version": "1.0.4"
+    "v": "2.0.0"
   },
   "link": "https://github.com/JetBrains/kotlin-spark-api",
   "dependencies": [
-    "org.jetbrains.kotlinx.spark:kotlin-spark-api-$spark:$version"
+    "org.jetbrains.kotlinx.spark:kotlin-spark-api-$spark:$v"
+  ],
+  "init": [
+    "val spark = org.jetbrains.kotlinx.spark.api.SparkSession.builder().master(SparkConf().get(\"spark.master\", \"local[*]\")).appName(\"Jupyter\").getOrCreate()",
+    "spark.sparkContext.setLogLevel(org.jetbrains.kotlinx.spark.api.SparkLogLevel.ERROR)",
+    "val sc = org.apache.spark.api.java.JavaSparkContext(spark.sparkContext)"
+  ],
+  "shutdown": [
+    "spark.stop()"
   ]
 }
