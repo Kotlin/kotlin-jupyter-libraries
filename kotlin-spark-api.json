@@ -9,6 +9,7 @@
     "org.jetbrains.kotlinx.spark:kotlin-spark-api-$spark:$v"
   ],
   "init": [
+    "%dumpClassesForSpark",
     "val spark = org.jetbrains.kotlinx.spark.api.SparkSession.builder().master(SparkConf().get(\"spark.master\", \"local[*]\")).appName(\"Jupyter\").getOrCreate()",
     "spark.sparkContext.setLogLevel(org.jetbrains.kotlinx.spark.api.SparkLogLevel.ERROR)",
     "val sc by lazy { org.apache.spark.api.java.JavaSparkContext(spark.sparkContext) }",
