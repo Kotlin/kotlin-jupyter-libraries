@@ -12,6 +12,6 @@
   ],
   "renderers": {
     "guru.nidi.graphviz.model.MutableGraph": "HTML($it.toGraphviz().render(guru.nidi.graphviz.engine.Format.SVG).toString())",
-    "guru.nidi.graphviz.engine.Graphviz": "HTML(it.render(guru.nidi.graphviz.engine.Format.SVG).toString())"
+    "guru.nidi.graphviz.engine.Graphviz": "HTML($it.render(guru.nidi.graphviz.engine.Format.SVG).toString())"
   }
 }
