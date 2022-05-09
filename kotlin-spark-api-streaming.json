@@ -2,13 +2,14 @@
   "description": "Kotlin for Apache® Spark™",
   "properties": {
     "spark": "3.2",
-    "v": "2.0.0"
+    "v": "1.1.0"
   },
   "link": "https://github.com/JetBrains/kotlin-spark-api",
   "dependencies": [
-    "org.jetbrains.kotlinx.spark:kotlin-spark-api-$spark:$v"
+    "org.jetbrains.kotlinx.spark:kotlin-spark-api-jupyter-$spark:$v"
   ],
-  "init": [
-    "%dumpClassesForSpark"
+  "integrationTypeNameRules" : [
+    "-:org.jetbrains.kotlinx.spark.api.jupyter.**",
+    "+:org.jetbrains.kotlinx.spark.api.jupyter.SparkStreamingIntegration"
   ]
 }
