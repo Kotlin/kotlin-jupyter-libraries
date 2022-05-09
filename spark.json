@@ -1,5 +1,5 @@
 {
-  "description": "Kotlin for Apache® Spark™\nYour next API to work with Apache Spark.\nThis project adds a missing layer of compatibility between Kotlin and Apache Spark. It allows Kotlin developers to use familiar language features such as data classes, and lambda expressions as simple expressions in curly braces or method references.\nAvailable spark versions: 3.2, 3.1, 3.0.\nWhen working with streaming, use '%use spark-streaming'.",
+  "description": "Kotlin API for Apache Spark: unified analytics engine for large-scale data processing",
   "properties": {
     "spark": "3.2",
     "v": "1.1.0"
