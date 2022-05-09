@@ -1,0 +1,17 @@
+{
+  "link": "https://github.com/nidi3/graphviz-java",
+  "description": "Graphviz wrapper for JVM",
+  "dependencies": [
+    "guru.nidi:graphviz-kotlin:0.18.1"
+  ],
+  "imports": [
+    "guru.nidi.graphviz.*",
+    "guru.nidi.graphviz.engine.*",
+    "guru.nidi.graphviz.model.*",
+    "guru.nidi.graphviz.attribute.*"
+  ],
+  "renderers": {
+    "guru.nidi.graphviz.model.MutableGraph": "HTML($it.toGraphviz().render(guru.nidi.graphviz.engine.Format.SVG).toString())",
+    "guru.nidi.graphviz.engine.Graphviz": "HTML($it.render(guru.nidi.graphviz.engine.Format.SVG).toString())"
+  }
+}
