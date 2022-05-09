@@ -1,5 +1,5 @@
 {
-  "description": "Kotlin API for Apache Spark: unified analytics engine for large-scale data processing",
+  "description": "Kotlin API for Apache Spark Streaming: scalable, high-throughput, fault-tolerant stream processing of live data streams",
   "properties": {
     "spark": "3.2",
     "v": "1.1.0"
@@ -10,6 +10,6 @@
   ],
   "integrationTypeNameRules" : [
     "-:org.jetbrains.kotlinx.spark.api.jupyter.**",
-    "+:org.jetbrains.kotlinx.spark.api.jupyter.SparkIntegration"
+    "+:org.jetbrains.kotlinx.spark.api.jupyter.SparkStreamingIntegration"
   ]
 }
