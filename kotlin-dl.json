@@ -1,8 +1,8 @@
 {
   "description": "KotlinDL library which provides Keras-like API for deep learning",
-  "link": "https://github.com/JetBrains/KotlinDL",
+  "link": "https://github.com/Kotlin/kotlindl",
   "properties": {
-    "v": "0.3.0"
+    "v": "0.4.0"
   },
   "dependencies": [
     "org.jetbrains.kotlinx:kotlin-deeplearning-api:$v",
