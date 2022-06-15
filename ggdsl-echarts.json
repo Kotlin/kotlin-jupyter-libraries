@@ -5,7 +5,6 @@
   },
   "link": "https://github.com/AndreiKingsley/lib-ggdsl",
   "dependencies": [
-    "org.jetbrains.kotlinx:ggdsl-api:$v",
     "org.jetbrains.kotlinx:ggdsl-echarts:$v"
   ]
 }
