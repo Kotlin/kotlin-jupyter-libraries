@@ -1,5 +1,5 @@
 {
-  "description": "Kotlin plotting DSL for Lets-Plot.",
+  "description": "Kotlin plotting DSL for Lets-Plot",
   "properties": {
     "v": "0.1.0-alpha-1"
   },
