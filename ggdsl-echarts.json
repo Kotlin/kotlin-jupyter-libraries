@@ -1,0 +1,10 @@
+{
+  "description": "Kotlin plotting DSL for Apache ECharts",
+  "properties": {
+    "v": "0.1.0-alpha-1"
+  },
+  "link": "https://github.com/AndreiKingsley/lib-ggdsl",
+  "dependencies": [
+    "org.jetbrains.kotlinx:ggdsl-echarts:$v"
+  ]
+}
