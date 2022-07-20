@@ -41,7 +41,7 @@
     "DISPLAY(HTML(frontendContext.getConfigureHtml()))"
   ],
   "renderers": {
-    "jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it))",
+    "jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it as jetbrains.letsPlot.intern.Plot))",
     "jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it))"
   }
 }
