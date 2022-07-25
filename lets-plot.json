@@ -1,7 +1,7 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
   "properties": {
-    "api": "3.3.0",
+    "api": "4.0.0",
     "lib": "2.4.0",
     "js": "2.4.0",
     "isolatedFrame": ""
@@ -14,26 +14,45 @@
     "io.github.microutils:kotlin-logging-jvm:2.0.5"
   ],
   "imports": [
-    "jetbrains.letsPlot.*",
-    "jetbrains.letsPlot.geom.*",
-    "jetbrains.letsPlot.geom.extras.*",
-    "jetbrains.letsPlot.stat.*",
-    "jetbrains.letsPlot.label.*",
-    "jetbrains.letsPlot.scale.*",
-    "jetbrains.letsPlot.facet.*",
-    "jetbrains.letsPlot.sampling.*",
-    "jetbrains.letsPlot.export.*",
-    "jetbrains.letsPlot.tooltips.layer_tooltips",
-    "jetbrains.letsPlot.tooltips.tooltips_none",
-    "jetbrains.letsPlot.bistro.corr.CorrPlot",
-    "jetbrains.letsPlot.bistro.qq.qqPlot",
-    "jetbrains.letsPlot.tooltips.layerTooltips",
-    "jetbrains.letsPlot.tooltips.tooltipsNone",
-    "jetbrains.letsPlot.intern.toSpec"
+    "org.jetbrains.letsPlot.*",
+    "org.jetbrains.letsPlot.geom.*",
+    "org.jetbrains.letsPlot.geom.extras.*",
+    "org.jetbrains.letsPlot.stat.*",
+    "org.jetbrains.letsPlot.label.*",
+    "org.jetbrains.letsPlot.scale.*",
+    "org.jetbrains.letsPlot.facet.*",
+    "org.jetbrains.letsPlot.sampling.*",
+    "org.jetbrains.letsPlot.export.*",
+    "org.jetbrains.letsPlot.tooltips.*",
+    "org.jetbrains.letsPlot.themes.theme",
+    "org.jetbrains.letsPlot.themes.elementBlank",
+    "org.jetbrains.letsPlot.themes.elementRect",
+    "org.jetbrains.letsPlot.themes.elementLine",
+    "org.jetbrains.letsPlot.themes.elementText",
+    "org.jetbrains.letsPlot.themes.themeGrey",
+    "org.jetbrains.letsPlot.themes.themeLight",
+    "org.jetbrains.letsPlot.themes.themeClassic",
+    "org.jetbrains.letsPlot.themes.themeMinimal",
+    "org.jetbrains.letsPlot.themes.themeMinimal2",
+    "org.jetbrains.letsPlot.themes.themeNone",
+    "org.jetbrains.letsPlot.coord.coordFixed",
+    "org.jetbrains.letsPlot.coord.coordCartesian",
+    "org.jetbrains.letsPlot.coord.coordMap",
+    "org.jetbrains.letsPlot.coord.coordFlip",
+    "org.jetbrains.letsPlot.pos.positionIdentity",
+    "org.jetbrains.letsPlot.pos.positionStack",
+    "org.jetbrains.letsPlot.pos.positionFill",
+    "org.jetbrains.letsPlot.pos.positionDodge",
+    "org.jetbrains.letsPlot.pos.positionNudge",
+    "org.jetbrains.letsPlot.pos.positionJitter",
+    "org.jetbrains.letsPlot.pos.positionJitterDodge",
+    "org.jetbrains.letsPlot.bistro.corr.*",
+    "org.jetbrains.letsPlot.bistro.qq.*",
+    "org.jetbrains.letsPlot.intern.toSpec"
   ],
   "init": [
-    "import jetbrains.letsPlot.LetsPlot",
-    "import jetbrains.letsPlot.frontend.NotebookFrontendContext",
+    "import org.jetbrains.letsPlot.LetsPlot",
+    "import org.jetbrains.letsPlot.frontend.NotebookFrontendContext",
     "val isolatedFrameParam = if(\"$isolatedFrame\".isNotEmpty()) \"$isolatedFrame\".toBoolean() else null",
     "val frontendContext = LetsPlot.setupNotebook(\"$js\", isolatedFrameParam) {DISPLAY(HTML(it))}",
     "LetsPlot.apiVersion = \"$api\"",
@@ -41,7 +60,7 @@
     "DISPLAY(HTML(frontendContext.getConfigureHtml()))"
   ],
   "renderers": {
-    "jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it as jetbrains.letsPlot.intern.Plot))",
-    "jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it))"
+    "org.jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.intern.Plot))",
+    "org.jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it))"
   }
 }
