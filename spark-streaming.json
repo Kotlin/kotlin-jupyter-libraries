@@ -1,12 +1,15 @@
 {
   "description": "Kotlin API for Apache Spark Streaming: scalable, high-throughput, fault-tolerant stream processing of live data streams",
   "properties": {
-    "spark": "3.2",
-    "v": "1.1.0"
+    "spark": "3.3.0",
+    "scala": "2.13",
+    "v": "1.2.0",
+    "displayLimit": "20",
+    "displayTruncate": "30"
   },
   "link": "https://github.com/JetBrains/kotlin-spark-api",
   "dependencies": [
-    "org.jetbrains.kotlinx.spark:kotlin-spark-api-jupyter-$spark:$v"
+    "org.jetbrains.kotlinx.spark:jupyter_$spark_$scala:$v"
   ],
   "integrationTypeNameRules" : [
     "-:org.jetbrains.kotlinx.spark.api.jupyter.**",
