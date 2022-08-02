@@ -3,7 +3,7 @@
   "properties": {
     "spark": "3.3.0",
     "scala": "2.13",
-    "v": "1.2.0",
+    "v": "1.2.1",
     "displayLimit": "20",
     "displayTruncate": "30"
   },
