@@ -1,7 +1,7 @@
 {
   "description": "HTTP networking library",
   "properties": {
-    "v": "-SNAPSHOT"
+    "v": "2.3.1"
   },
   "link": "https://github.com/kittinunf/fuel",
   "dependencies": [
