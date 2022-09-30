@@ -1,9 +1,9 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
   "properties": {
-    "api": "4.0.0",
-    "lib": "2.4.0",
-    "js": "2.4.0",
+    "api": "4.1.0",
+    "lib": "2.5.0",
+    "js": "2.5.0",
     "isolatedFrame": ""
   },
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
@@ -29,12 +29,20 @@
     "org.jetbrains.letsPlot.themes.elementRect",
     "org.jetbrains.letsPlot.themes.elementLine",
     "org.jetbrains.letsPlot.themes.elementText",
+    "org.jetbrains.letsPlot.themes.themeBW",
     "org.jetbrains.letsPlot.themes.themeGrey",
     "org.jetbrains.letsPlot.themes.themeLight",
     "org.jetbrains.letsPlot.themes.themeClassic",
     "org.jetbrains.letsPlot.themes.themeMinimal",
     "org.jetbrains.letsPlot.themes.themeMinimal2",
     "org.jetbrains.letsPlot.themes.themeNone",
+    "org.jetbrains.letsPlot.themes.margin",
+    "org.jetbrains.letsPlot.themes.flavorDarcula",
+    "org.jetbrains.letsPlot.themes.flavorSolarizedLight",
+    "org.jetbrains.letsPlot.themes.flavorSolarizedDark",
+    "org.jetbrains.letsPlot.themes.flavorHighContrastLight",
+    "org.jetbrains.letsPlot.themes.flavorHighContrastDark",
+    "org.jetbrains.letsPlot.font.*",
     "org.jetbrains.letsPlot.coord.coordFixed",
     "org.jetbrains.letsPlot.coord.coordCartesian",
     "org.jetbrains.letsPlot.coord.coordMap",
@@ -61,6 +69,6 @@
   ],
   "renderers": {
     "org.jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.intern.Plot))",
-    "org.jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it))"
+    "org.jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.GGBunch))"
   }
 }
