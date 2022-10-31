@@ -2,7 +2,7 @@
   "description": "Lets-Plot visualisation for GeoTools toolkit",
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
   "properties": {
-    "api": "4.0.0",
+    "api": "4.1.0",
     "gt": "[23,)"
   },
   "repositories": [
