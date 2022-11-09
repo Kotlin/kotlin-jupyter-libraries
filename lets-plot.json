@@ -1,9 +1,9 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
   "properties": {
-    "api": "4.1.0",
-    "lib": "2.5.0",
-    "js": "2.5.0",
+    "api": "4.1.1",
+    "lib": "2.5.1",
+    "js": "2.5.1",
     "isolatedFrame": ""
   },
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
