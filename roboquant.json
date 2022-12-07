@@ -2,7 +2,7 @@
   "description": "Algorithmic trading platform written in Kotlin",
   "link": "https://roboquant.org",
   "properties": {
-    "v": "0.9.8"
+    "v": "1.0.0"
   },
   "repositories": [
     "https://s01.oss.sonatype.org/content/repositories/snapshots"
