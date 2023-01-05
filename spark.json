@@ -1,9 +1,9 @@
 {
   "description": "Kotlin API for Apache Spark: unified analytics engine for large-scale data processing",
   "properties": {
-    "spark": "3.3.0",
+    "spark": "3.3.1",
     "scala": "2.13",
-    "v": "1.2.1",
+    "v": "1.2.3",
     "displayLimit": "20",
     "displayTruncate": "30",
     "spark.app.name": "Jupyter",
