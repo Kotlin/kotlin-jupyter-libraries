@@ -2,10 +2,12 @@
   "description": "KotlinDL library which provides Keras-like API for deep learning",
   "link": "https://github.com/Kotlin/kotlindl",
   "properties": {
-    "v": "0.4.0"
+    "v": "0.5.1"
   },
   "dependencies": [
     "org.jetbrains.kotlinx:kotlin-deeplearning-api:$v",
+    "org.jetbrains.kotlinx:kotlin-deeplearning-impl:$v",
+    "org.jetbrains.kotlinx:kotlin-deeplearning-tensorflow:$v",
     "org.jetbrains.kotlinx:kotlin-deeplearning-onnx:$v",
     "org.jetbrains.kotlinx:kotlin-deeplearning-visualization:$v"
   ],
@@ -22,8 +24,10 @@
     "org.jetbrains.kotlinx.dl.api.core.optimizer.*",
     "org.jetbrains.kotlinx.dl.api.core.regularizer.*",
     "org.jetbrains.kotlinx.dl.api.core.summary.*",
+    "org.jetbrains.kotlinx.dl.api.preprocessing.*",
     "org.jetbrains.kotlinx.dl.dataset.*",
-    "org.jetbrains.kotlinx.dl.dataset.handler.*", 
-    "org.jetbrains.kotlinx.dl.dataset.preprocessor.*"
+    "org.jetbrains.kotlinx.dl.dataset.embedded.*",
+    "org.jetbrains.kotlinx.dl.impl.preprocessing.*",
+    "org.jetbrains.kotlinx.dl.impl.preprocessing.image.*"
   ]
 }
