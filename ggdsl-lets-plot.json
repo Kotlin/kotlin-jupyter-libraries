@@ -1,7 +1,7 @@
 {
   "description": "Kotlin plotting DSL for Lets-Plot",
   "properties": {
-    "v": "0.3.1",
+    "v": "0.3.2-dev-7",
     "applyColorScheme": "true"
   },
   "link": "https://github.com/AndreiKingsley/lib-ggdsl",
