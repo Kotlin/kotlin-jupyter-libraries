@@ -1,7 +1,7 @@
 {
   "description": "Kotlin Dataframe integration for ggdsl",
   "properties": {
-    "v": "0.3.0"
+    "v": "0.3.1"
   },
   "link": "https://github.com/AndreiKingsley/lib-ggdsl",
   "dependencies": [
