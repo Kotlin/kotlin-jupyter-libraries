@@ -1,7 +1,8 @@
 {
   "description": "Lets-plot and Dataframe ggdsl",
   "properties": {
-    "v": "0.3.0"
+    "v": "0.3.1",
+    "applyColorScheme": "true"
   },
   "link": "https://github.com/AndreiKingsley/lib-ggdsl",
   "dependencies": [
