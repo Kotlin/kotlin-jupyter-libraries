@@ -1,0 +1,14 @@
+
+{
+  "description": "Kotlin date/time library",
+  "properties": {
+    "v": "0.4.0"
+  },
+  "link": "https://github.com/Kotlin/kotlinx-datetime",
+  "dependencies": [
+    "org.jetbrains.kotlinx:kotlinx-datetime:$v"
+  ],
+  "imports": [
+    "kotlinx.datetime.*",
+  ]
+}
