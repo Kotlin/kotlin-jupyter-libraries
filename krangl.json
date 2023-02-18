@@ -1,7 +1,7 @@
 {
   "description": "Kotlin DSL for data wrangling",
   "properties": {
-    "v": "0.17"
+    "v": "0.18.4"
   },
   "link": "https://github.com/holgerbrandl/krangl",
   "dependencies": [
