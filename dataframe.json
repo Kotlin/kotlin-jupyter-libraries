@@ -9,5 +9,8 @@
   "link": "https://github.com/Kotlin/dataframe",
   "dependencies": [
     "org.jetbrains.kotlinx:dataframe:$v"
+  ],
+  "integrationTypeNameRules": [
+    "+:org.jetbrains.kotlinx.dataframe.**"
   ]
 }
