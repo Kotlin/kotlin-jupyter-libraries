@@ -1,0 +1,14 @@
+{
+  "description": "A library to use the Gradle Enterprise API in Kotlin scripts or projects",
+  "properties": {
+    "version": "0.14.0"
+  },
+  "link": "https://github.com/gabrielfeo/gradle-enterprise-api-kotlin",
+  "dependencies": [
+    "com.github.gabrielfeo:gradle-enterprise-api-kotlin:$version"
+  ],
+  "imports": [
+    "com.gabrielfeo.gradle.enterprise.api.*",
+    "com.gabrielfeo.gradle.enterprise.api.model.*"
+   ]
+}
