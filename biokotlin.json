@@ -1,7 +1,7 @@
 {
   "description": "BioKotlin aims to be a high-performance bioinformatics library that brings the power and speed of compiled programming languages to scripting and big data environments.",
   "properties": {
-    "v": "0.05.01"
+    "v": "0.06"
   },
   "link": "https://bitbucket.org/bucklerlab/biokotlin",
   "dependencies": [
