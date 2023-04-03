@@ -1,8 +1,8 @@
 {
   "description": "OpenAI API for Jupyter Notebooks",
-  "properties": [
-    { "name": "version", "value": "0.1.0" }
-  ],
+  "properties": {
+    "version": "0.1.0"
+  },
   "link": "https://openai.com/blog/chatgpt",
   "repositories": [
     "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
