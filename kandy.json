@@ -1,0 +1,13 @@
+{
+  "description": "Kotlin plotting DSL for Lets-Plot",
+  "properties": {
+    "kandyVersion": "0.4.0-dev-16"
+  },
+  "link": "https://github.com/Kotlin/kandy",
+  "dependencies": [
+    "org.jetbrains.kotlinx:kandy-lets-plot:$kandyVersion"
+  ],
+  "integrationTypeNameRules": [
+    "-:org.jetbrains.kotlinx.dataframe.**"
+  ]
+}

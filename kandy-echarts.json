@@ -1,0 +1,10 @@
+{
+  "description": "Kotlin plotting DSL for Apache ECharts",
+  "properties": {
+    "kandyVersion": "0.4.0-dev-16"
+  },
+  "link": "https://github.com/Kotlin/kandy",
+  "dependencies": [
+    "org.jetbrains.kotlinx:kandy-echarts:$kandyVersion"
+  ]
+}
