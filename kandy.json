@@ -1,7 +1,7 @@
 {
   "description": "Kotlin plotting DSL for Lets-Plot",
   "properties": {
-    "kandyVersion": "0.4.0-dev-16"
+    "kandyVersion": "0.4.0"
   },
   "link": "https://github.com/Kotlin/kandy",
   "dependencies": [
