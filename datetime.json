@@ -5,7 +5,7 @@
   },
   "link": "https://github.com/Kotlin/kotlinx-datetime",
   "dependencies": [
-    "org.jetbrains.kotlinx:kotlinx-datetime:$v"
+    "org.jetbrains.kotlinx:kotlinx-datetime-jvm:$v"
   ],
   "imports": [
     "kotlinx.datetime.*"
