@@ -1,0 +1,22 @@
+{
+  "description": "WebTau end-to-end testing across layers",
+  "properties": {
+    "v": "1.53"
+  },
+  "link": "https://github.com/testingisdocumenting/webtau",
+  "dependencies": [
+    "org.testingisdocumenting.webtau:webtau:$v"
+  ],
+  "imports": [
+    "org.testingisdocumenting.webtau.WebTauDsl.*"
+  ],
+  "init": [
+    "org.testingisdocumenting.webtau.browser.BrowserConfig.setBrowserSameDriverInThreads(true)"
+  ],
+  "renderers": {
+    "org.testingisdocumenting.webtau.data.table.TableData": "HTML(org.testingisdocumenting.webtau.notebook.PrettyPrintableToHtmlConverter.convert($it as org.testingisdocumenting.webtau.data.render.PrettyPrintable))",
+    "org.testingisdocumenting.webtau.browser.page.GenericPageElement": "HTML(org.testingisdocumenting.webtau.browser.notebook.NotebookResultRenderer.renderPageElementAndHighlight($it as org.testingisdocumenting.webtau.browser.page.PageElement))",
+    "org.testingisdocumenting.webtau.browser.page.PageElementValue": "HTML(org.testingisdocumenting.webtau.notebook.PrettyPrintableToHtmlConverter.convert($it as org.testingisdocumenting.webtau.data.render.PrettyPrintable))",
+    "org.testingisdocumenting.webtau.browser.page.PageUrl": "HTML(org.testingisdocumenting.webtau.notebook.PrettyPrintableToHtmlConverter.convert($it as org.testingisdocumenting.webtau.data.render.PrettyPrintable))"
+  }
+}
