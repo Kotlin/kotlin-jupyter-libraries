@@ -1,10 +1,13 @@
 {
   "description": "Deep learning library for the JVM",
-  "properties": {
-    "v": "1.0.0-beta6",
-    "slf4j": "1.7.25",
-    "freemarker": "2.3.29"
-  },
+  "properties": [
+    { "name": "v", "value": "1.0.0-beta6" },
+    { "name": "v-renovate-hint", "value": "update: package=org.nd4j:nd4j-api" },
+    { "name": "slf4j", "value": "1.7.25" },
+    { "name": "slf4j-renovate-hint", "value": "update: package=org.slf4j:slf4j-api" },
+    { "name": "freemarker", "value": "2.3.29" },
+    { "name": "freemarker-renovate-hint", "value": "update: package=org.freemarker:freemarker" }
+  ],
   "link": "https://github.com/eclipse/deeplearning4j",
   "dependencies": [
     "org.freemarker:freemarker:$freemarker",

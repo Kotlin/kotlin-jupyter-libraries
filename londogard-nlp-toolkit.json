@@ -1,9 +1,10 @@
 {
   "description": "A Natural Language Processing (NLP) toolkit for Kotlin on the JVM",
   "link": "https://github.com/londogard/londogard-nlp-toolkit",
-  "properties": {
-    "v": "v1.0.0"
-  },
+  "properties": [
+    { "name": "v", "value": "v1.0.0" },
+    { "name": "v-renovate-hint", "value": "update: package=com.londogard:londogard-nlp-toolkit" }
+  ],
   "repositories": [
     "https://jitpack.io"
   ],
