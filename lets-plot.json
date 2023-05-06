@@ -1,11 +1,13 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
-  "properties": {
-    "api": "4.3.0",
-    "lib": "3.1.0",
-    "js": "3.1.0",
-    "isolatedFrame": ""
-  },
+  "properties": [
+    { "name": "api", "value": "4.3.0" },
+    { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-kernel" },
+    { "name": "lib", "value": "3.1.0" },
+    { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
+    { "name": "js", "value": "3.1.0" },
+    { "name": "isolatedFrame", "value": "" }
+  ],
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
   "dependencies": [
     "org.jetbrains.lets-plot:lets-plot-kotlin-kernel:$api",

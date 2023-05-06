@@ -1,8 +1,9 @@
 {
   "description": "MySql JDBC Connector",
-  "properties": {
-    "v": "8.0.17"
-  },
+  "properties": [
+    { "name": "v", "value": "8.0.17" },
+    { "name": "v-renovate-hint", "value": "update: package=mysql:mysql-connector-java" }
+  ],
   "link": "https://github.com/mysql/mysql-connector-j",
   "dependencies": [
     "mysql:mysql-connector-java:$v"

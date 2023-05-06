@@ -1,8 +1,9 @@
 {
   "description": "HTTP networking library",
-  "properties": {
-    "v": "39f76b4186"
-  },
+  "properties": [
+    { "name": "v", "value": "39f76b4186" },
+    { "name": "v-renovate-hint", "value": "update: package=com.github.jkcclemens:khttp" }
+  ],
   "link": "https://github.com/jkcclemens/khttp",
   "repositories": [
     "https://jitpack.io"

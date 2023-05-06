@@ -1,14 +1,15 @@
 {
   "description": "Kotlin API for Apache Spark: unified analytics engine for large-scale data processing",
-  "properties": {
-    "spark": "3.3.1",
-    "scala": "2.13",
-    "v": "1.2.3",
-    "displayLimit": "20",
-    "displayTruncate": "30",
-    "spark.app.name": "Jupyter",
-    "spark.master": "local[*]"
-  },
+  "properties": [
+    { "name": "spark", "value": "3.3.1" },
+    { "name": "scala", "value": "2.13" },
+    { "name": "v", "value": "1.2.3" },
+    { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx.spark:jupyter_3.3.1_2.13" },
+    { "name": "displayLimit", "value": "20" },
+    { "name": "displayTruncate", "value": "30" },
+    { "name": "spark.app.name", "value": "Jupyter" },
+    { "name": "spark.master", "value": "local[*]" }
+  ],
   "link": "https://github.com/JetBrains/kotlin-spark-api",
   "dependencies": [
     "org.jetbrains.kotlinx.spark:jupyter_$spark_$scala:$v"

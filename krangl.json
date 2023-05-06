@@ -1,8 +1,9 @@
 {
   "description": "Kotlin DSL for data wrangling",
-  "properties": {
-    "v": "0.17"
-  },
+  "properties": [
+    { "name": "v", "value": "0.17" },
+    { "name": "v-renovate-hint", "value": "update: package=com.github.holgerbrandl:krangl" }
+  ],
   "link": "https://github.com/holgerbrandl/krangl",
   "dependencies": [
     "com.github.holgerbrandl:krangl:$v"

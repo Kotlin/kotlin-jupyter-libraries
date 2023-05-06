@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "extends": [
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "dependencyDashboard": "true",
+  "branchConcurrentLimit": 0,
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "rebaseWhen": "conflicted",
+  "packageRules": [
+    {
+      "matchDatasources": ["maven"],
+      // Every repository from every descriptor
+      "registryUrls": [
+        // Default kernel repositories
+        "https://repo.maven.apache.org/maven2/",
+        "https://jitpack.io/",
+        // Custom repositories from descriptors must be added here
+        "https://oss.sonatype.org/service/local/repo_groups/public/content",
+        "https://repo.osgeo.org/repository/release",
+        "https://repo.kotlin.link",
+        "https://maven.pkg.jetbrains.space/kotlin/p/kotlin/kotlin-js-wrappers",
+        "https://s01.oss.sonatype.org/content/repositories/snapshots",
+        "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven",
+      ]
+    }
+  ],
+  "regexManagers": [
+    // Matches dependencies with hardcoded versions (no interpolated properties)
+    {
+      "datasourceTemplate": "maven",
+      "versioningTemplate": "maven",
+      "fileMatch": [".*\\.json5"],
+      "matchStrings": [
+        // https://regex101.com/r/mex9HU/1
+        '^\\s*"(?<depName>[^":\\$]+:[^":\\$]+):(?<currentValue>[^":\\$]+)"',
+      ]
+    },
+    // Matches properties having a "*-renovate-hint" property below them with value "update: package=group:artifact"
+    {
+      "datasourceTemplate": "maven",
+      "versioningTemplate": "maven",
+      "fileMatch": [".*\\.json"],
+      "matchStrings": [
+        // https://regex101.com/r/7ESmC8/6
+        '(?:{ *"name": *)?".+?"[:,] *(?:"value": *)?"(?<currentValue>.+?)"(?: *})?,\\s*(?:{ *"name": *)?"\\S+-renovate-hint"[:,] *(?:"value": *)?"update: +package=(?<depName>\\S+?)"',
+      ]
+    },
+  ],
+}
