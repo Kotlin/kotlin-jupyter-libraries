@@ -1,0 +1,5 @@
+{
+  ignoredPropertyPatterns: [
+    ".*-renovate-hint"
+  ]
+}
