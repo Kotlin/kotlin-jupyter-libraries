@@ -1,7 +1,7 @@
 {
   "description": "Deep learning library for the JVM (CUDA support)",
   "properties": [
-    { "name": "v", "value": "1.0.0-beta6" },
+    { "name": "v", "value": "1.0.0-SNAPSHOT" },
     { "name": "v-renovate-hint", "value": "update: package=org.nd4j:nd4j-api" },
     { "name": "cuda", "value": "10.2" },
     { "name": "slf4j", "value": "1.7.25" },
