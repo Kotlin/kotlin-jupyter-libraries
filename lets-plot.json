@@ -3,9 +3,9 @@
   "properties": [
     { "name": "api", "value": "4.3.0" },
     { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-kernel" },
-    { "name": "lib", "value": "3.1.0" },
+    { "name": "lib", "value": "3.2.0" },
     { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
-    { "name": "js", "value": "3.1.0" },
+    { "name": "js", "value": "3.2.0" },
     { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
     { "name": "isolatedFrame", "value": "" }
   ],
