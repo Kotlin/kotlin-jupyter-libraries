@@ -15,7 +15,6 @@
     "smile.classification.*",
     "smile.clustering.*",
     "smile.manifold.*",
-    "smile.mds.*",
     "smile.nlp.*",
     "smile.wavelet.*"
   ]
