@@ -10,9 +10,9 @@
   "prHourlyLimit": 0,
   "rebaseWhen": "conflicted",
   "packageRules": [
+    // Define repositories
     {
       "matchDatasources": ["maven"],
-      // Every repository from every descriptor
       "registryUrls": [
         // Default kernel repositories
         "https://repo.maven.apache.org/maven2/",
@@ -25,7 +25,27 @@
         "https://s01.oss.sonatype.org/content/repositories/snapshots",
         "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven",
       ]
-    }
+    },
+    // Ignore -dev versions, because in maven 1.0 < 1.0-dev
+    {
+      "matchPackagePatterns": [".*"],
+      "allowedVersions": "!/[-.]dev/",
+    },
+    // Allow -dev versions if it's already using one
+    {
+      "matchCurrentValue": "/[-.]dev/",
+      "allowedVersions": "/.*/",
+    },
+    // Ignore pushed by mistake version
+    {
+      "matchPackageNames": ["org.jetbrains.kotlinx:dataframe"],
+      "allowedVersions": "!/[-.]dev|^1548$/",
+    },
+    // Ignore pushed by mistake versions
+    {
+      "matchPackageNames": ["com.github.gabrielfeo:gradle-enterprise-api-kotlin"],
+      "allowedVersions": "!/^0\\.999.*$/",
+    },
   ],
   "regexManagers": [
     // Matches dependencies with hardcoded versions (no interpolated properties)
