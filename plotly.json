@@ -1,7 +1,7 @@
 {
   "description": "[beta] Plotly.kt jupyter integration for static plots.",
   "properties": [
-    { "name": "v", "value": "0.5.0" },
+    { "name": "v", "value": "0.5.3" },
     { "name": "v-renovate-hint", "value": "update: package=space.kscience:plotlykt-jupyter" }
   ],
   "link": "https://github.com/mipt-npm/plotly.kt",
