@@ -1,7 +1,7 @@
 {
   "description": "ggplot-like interactive visualization for Kotlin",
   "properties": [
-    { "name": "api", "value": "4.4.0" },
+    { "name": "api", "value": "4.4.1" },
     { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-kernel" },
     { "name": "lib", "value": "3.2.0" },
     { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
