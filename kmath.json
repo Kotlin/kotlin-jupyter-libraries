@@ -1,7 +1,7 @@
 {
   "description": "Experimental Kotlin algebra-based mathematical library",
   "properties": [
-    { "name": "v", "value": "0.3.0" },
+    { "name": "v", "value": "0.3.1" },
     { "name": "v-renovate-hint", "value": "update: package=space.kscience:kmath-jupyter" }
   ],
   "link": "https://github.com/mipt-npm/kmath",
