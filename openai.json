@@ -1,7 +1,7 @@
 {
   "description": "OpenAI API for Jupyter Notebooks",
   "properties": [
-    { "name": "version", "value": "0.1.1" },
+    { "name": "version", "value": "0.1.2" },
     { "name": "version-renovate-hint", "value": "update: package=org.jetbrains.kotlin.ds:kotlin-openai" }
   ],
   "link": "https://openai.com/blog/chatgpt",
