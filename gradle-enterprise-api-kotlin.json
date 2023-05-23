@@ -11,5 +11,6 @@
   "imports": [
     "com.gabrielfeo.gradle.enterprise.api.*",
     "com.gabrielfeo.gradle.enterprise.api.model.*"
+    "com.gabrielfeo.gradle.enterprise.api.extension.*",
   ]
 }
