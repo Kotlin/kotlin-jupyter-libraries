@@ -1,7 +1,7 @@
 {
   "description": "A library to use the Gradle Enterprise API in Kotlin scripts or projects",
   "properties": [
-    { "name": "version", "value": "0.16.2" },
+    { "name": "version", "value": "0.17.0" },
     { "name": "version-renovate-hint", "value": "update: package=com.gabrielfeo:gradle-enterprise-api-kotlin" }
   ],
   "link": "https://github.com/gabrielfeo/gradle-enterprise-api-kotlin",
