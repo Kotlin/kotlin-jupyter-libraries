@@ -39,7 +39,7 @@
     // Ignore pushed by mistake version
     {
       "matchPackageNames": ["org.jetbrains.kotlinx:dataframe"],
-      "allowedVersions": "!/[-.]dev|^1548$/",
+      "allowedVersions": "!/[-.]dev|^1548$|^1727$/",
     },
     // Ignore pushed by mistake versions
     {
