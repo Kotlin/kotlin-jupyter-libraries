@@ -4,7 +4,7 @@
     { "name": "v", "value": "0.08" },
     { "name": "v-renovate-hint", "value": "update: package=org.biokotlin:biokotlin" }
   ],
-  "link": "https://bitbucket.org/bucklerlab/biokotlin",
+  "link": "https://github.com/maize-genetics/BioKotlin",
   "dependencies": [
     "org.biokotlin:biokotlin:$v"
   ]
