@@ -3,7 +3,7 @@
   "properties": [
     { "name": "spark", "value": "3.3.1" },
     { "name": "scala", "value": "2.13" },
-    { "name": "v", "value": "1.2.3" },
+    { "name": "v", "value": "1.2.4" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx.spark:jupyter_3.3.1_2.13" },
     { "name": "displayLimit", "value": "20" },
     { "name": "displayTruncate", "value": "30" },
