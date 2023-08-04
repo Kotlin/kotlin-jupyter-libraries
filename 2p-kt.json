@@ -1,19 +1,10 @@
 {
-    "description": "A Kotlin Multi-Platform ecosystem for symbolic AI",
+    "description": "Kotlin Multi-Platform ecosystem for symbolic AI",
     "properties": [
-        {
-            "name": "v",
-            "value": "0.31.9"
-        },
-        {
-            "name": "v-renovate-hint",
-            "value": "update: package=it.unibo.tuprolog:full"
-        }
+        { "name": "v", "value": "0.31.9" },
+        { "name": "v-renovate-hint", "value": "update: package=it.unibo.tuprolog:full" }
     ],
     "link": "https://github.com/gciatto/kt-math",
-    "repositories": [
-        "https://repo1.maven.org/maven2"
-    ],
     "dependencies": [
         "it.unibo.tuprolog:solve-classic-jvm:$v",
         "it.unibo.tuprolog:parser-theory-jvm:$v",
