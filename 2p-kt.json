@@ -1,7 +1,7 @@
 {
     "description": "Kotlin Multi-Platform ecosystem for symbolic AI",
     "properties": [
-        { "name": "v", "value": "0.31.16" },
+        { "name": "v", "value": "0.31.17" },
         { "name": "v-renovate-hint", "value": "update: package=it.unibo.tuprolog:full" }
     ],
     "link": "https://github.com/gciatto/kt-math",
