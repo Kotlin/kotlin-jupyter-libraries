@@ -1,14 +1,16 @@
 {
   "description": "Kotlin plotting DSL for Lets-Plot",
   "properties": [
-    { "name": "kandyVersion", "value": "0.4.4" },
+    { "name": "kandyVersion", "value": "0.5.0-rc-2" },
+    { "name": "statsVersion", "value": "0.0.3" },
     { "name": "kandyVersion-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kandy-lets-plot" }
   ],
   "link": "https://github.com/Kotlin/kandy",
-  "dependencies": [
-    "org.jetbrains.kotlinx:kandy-lets-plot:$kandyVersion"
+  "repositories": [
+    "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
   ],
-  "integrationTypeNameRules": [
-    "-:org.jetbrains.kotlinx.dataframe.**"
+  "dependencies": [
+    "org.jetbrains.kotlinx:kandy-lets-plot:$kandyVersion",
+    "org.jetbrains.kotlinx:kotlin-statistics-jvm:$statsVersion"
   ]
 }
