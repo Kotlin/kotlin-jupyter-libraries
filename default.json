@@ -1,6 +1,6 @@
 {
-  "description": "Default imports: dataframe and Lets-Plot libraries",
+  "description": "Default imports: dataframe and Kandy libraries",
   "init": [
-    "%use dataframe, lets-plot-dataframe"
+    "%use dataframe, kandy"
   ]
 }
