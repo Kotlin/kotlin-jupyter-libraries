@@ -4,7 +4,7 @@
   "properties": [
     { "name": "api", "value": "4.5.0" },
     { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-geotools" },
-    { "name": "gt", "value": "30.0" },
+    { "name": "gt", "value": "30.1" },
     { "name": "gt-renovate-hint", "value": "update: package=org.geotools:gt-geojson" }
   ],
   "repositories": [
