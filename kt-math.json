@@ -1,7 +1,7 @@
 {
     "description": "Kotlin multi-platform port of java.math.*",
     "properties": [
-        { "name": "v", "value": "0.9.0" },
+        { "name": "v", "value": "0.10.0" },
         { "name": "v-renovate-hint", "value": "update: package=io.github.gciatto:kt-math" }
     ],
     "link": "https://github.com/gciatto/kt-math",
