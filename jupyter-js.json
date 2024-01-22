@@ -1,0 +1,10 @@
+{
+  "description": "Experimental `%javascript`/`%typescript`/`%jsx` line magic support",
+  "properties": [
+    { "name": "v", "value": "0.5.0" }
+  ],
+  "link": "https://github.com/yidafu/kotlin-jupyter-js",
+  "dependencies": [
+    "dev.yidafu.jupyter:jupyter-js:$v"
+  ]
+}
