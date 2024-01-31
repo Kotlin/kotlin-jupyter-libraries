@@ -1,7 +1,7 @@
 {
   "description": "Experimental `%javascript`/`%typescript`/`%jsx` line magic support",
   "properties": [
-    { "name": "v", "value": "0.6.0" },
+    { "name": "v", "value": "0.7.0" },
     { "name": "v-renovate-hint", "value": "update: package=dev.yidafu.jupyter:jupyter-js" }
   ],
   "link": "https://github.com/yidafu/kotlin-jupyter-js",
