@@ -4,9 +4,6 @@
     { "name": "v", "value": "0.12.1" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:dataframe" }
   ],
-  "repositories": [
-    "https://oss.sonatype.org/service/local/repo_groups/public/content"
-  ],
   "link": "https://github.com/Kotlin/dataframe",
   "dependencies": [
     "org.jetbrains.kotlinx:dataframe:$v"
