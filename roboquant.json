@@ -2,7 +2,7 @@
   "description": "Algorithmic trading platform written in Kotlin",
   "link": "https://roboquant.org",
   "properties": [
-    { "name": "version", "value": "2.1.0" },
+    { "name": "version", "value": "2.2.0" },
     { "name": "version-renovate-hint", "value": "update: package=org.roboquant:roboquant-jupyter" }
   ],
   "repositories": [
