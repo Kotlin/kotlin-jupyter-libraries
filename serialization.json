@@ -1,15 +1,14 @@
 {
-  "description": "Kotlin multi-format reflection-less serialization",
+  "description": "Deserialize JSON content using kotlinx.serialization and automatically generate classes for it",
   "properties": [
-    { "name": "v", "value": "1.6.3" },
-    { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlinx-serialization-json" }
+    { "name": "v", "value": "0.1.0-dev-5" },
+    { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-json-generation" }
   ],
   "link": "https://github.com/Kotlin/kotlinx.serialization",
-  "dependencies": [
-    "org.jetbrains.kotlinx:kotlinx-serialization-json:$v"
+  "repositories": [
+    "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
   ],
-  "imports": [
-    "kotlinx.serialization.*",
-    "kotlinx.serialization.json.*"
+  "dependencies": [
+    "org.jetbrains.kotlinx:kotlin-jupyter-json-generation:$v"
   ]
 }
