@@ -1,7 +1,7 @@
 {
   "description": "Asynchronous HTTP client",
   "properties": [
-    { "name": "v", "value": "0.1.0-dev-6" },
+    { "name": "v", "value": "0.1.0-dev-8" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-ktor-client-json-generation" }
   ],
   "link": "https://ktor.io/docs/request.html",
