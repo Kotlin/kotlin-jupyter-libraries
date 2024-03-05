@@ -9,7 +9,6 @@
     "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
   ],
   "dependencies": [
-    "org.jetbrains.kotlinx:kotlin-jupyter-json-generation:$v",
-    "org.jetbrains.kotlinx:kotlinx-serialization-json:$lib"
+    "org.jetbrains.kotlinx:kotlin-jupyter-json-generation:$v"
   ]
 }
