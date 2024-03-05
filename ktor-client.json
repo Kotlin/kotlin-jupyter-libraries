@@ -4,6 +4,7 @@
     { "name": "v", "value": "0.1.0-dev-5" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-ktor-client-json-generation" }
   ],
+  "link": "https://ktor.io/docs/request.html",
   "repositories": [
     "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
   ],
