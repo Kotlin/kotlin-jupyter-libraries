@@ -1,0 +1,11 @@
+{
+  "description": "A library to use the Develocity API in Kotlin scripts or projects",
+  "properties": [
+    { "name": "version", "value": "2024.1.0" },
+    { "name": "version-renovate-hint", "value": "update: package=com.gabrielfeo:develocity-api-kotlin" }
+  ],
+  "link": "https://github.com/gabrielfeo/develocity-api-kotlin",
+  "dependencies": [
+    "com.gabrielfeo:develocity-api-kotlin:$version"
+  ]
+}
