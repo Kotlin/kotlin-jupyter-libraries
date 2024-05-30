@@ -1,7 +1,7 @@
 {
   "description": "Kotlin API for Lets-Plot: multiplatform plotting library based on Grammar of Graphics",
   "properties": [
-    { "name": "api", "value": "4.7.2" },
+    { "name": "api", "value": "4.7.3" },
     { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-kernel" },
     { "name": "lib", "value": "4.3.2" },
     { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
