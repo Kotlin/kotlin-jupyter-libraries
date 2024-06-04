@@ -5,7 +5,7 @@
     { "name": "v-renovate-hint", "value": "update: package=org.nd4j:nd4j-api" },
     { "name": "slf4j", "value": "1.7.36" },
     { "name": "slf4j-renovate-hint", "value": "update: package=org.slf4j:slf4j-api" },
-    { "name": "freemarker", "value": "2.3.32" },
+    { "name": "freemarker", "value": "2.3.33" },
     { "name": "freemarker-renovate-hint", "value": "update: package=org.freemarker:freemarker" }
   ],
   "link": "https://github.com/eclipse/deeplearning4j",
