@@ -1,0 +1,48 @@
+{
+  "description": "KSL - Kotlin Simulation Library for Monte Carlo and Discrete-Event Simulation",
+  "properties": [
+    { "name": "v", "value": "R1.1.3" },
+    { "name": "v-renovate-hint", "value": "update: package=io.github.rossetti:KSLCore" }
+  ],
+  "link": "https://github.com/rossetti/KSL",
+  "dependencies": [
+    "io.github.rossetti:KSLCore:$v"
+  ],
+  "imports": [
+    "ksl.utilities.random.rvariable.*",
+    "ksl.utilities.statistic.*",
+    "ksl.utilities.random.*",
+    "ksl.utilities.random.rng.*",
+    "ksl.utilities.random.robj.*",
+    "ksl.utilities.math.*",
+    "ksl.utilities.mcintegration.*",
+    "ksl.utilities.io.*",
+    "ksl.utilities.io.dbutil.*",
+    "ksl.utilities.io.tabularfiles.*",
+    "ksl.utilities.random.robj.*",
+    "ksl.utilities.random.*",
+    "ksl.utilities.KSLArrays",
+    "ksl.utilities.maps.*",
+    "ksl.simulation.*",
+    "ksl.modeling.variable.*",
+    "ksl.modeling.queue.*",
+    "ksl.modeling.entity.*",
+    "ksl.modeling.elements.*",
+    "ksl.modeling.station.*",
+    "ksl.modeling.nhpp.*",
+    "ksl.modeling.spatial.*",
+    "ksl.utilities.io.plotting.*",
+    "ksl.utilities.moda.*",
+    "ksl.utilities.distributions.*",
+    "ksl.utilities.distributions.fitting.*",
+    "ksl.utilities.distributions.fitting.estimators.*",
+    "ksl.utilities.distributions.fitting.scoring.*",
+    "ksl.observers.*",
+    "ksl.observers.welch.*",
+    "ksl.utilities.random.mcmc.*",
+    "ksl.utilities.random.rvariable.parameters.*",
+    "ksl.utilities.random.robj.*",
+    "ksl.controls.*",
+    "ksl.controls.experiments.*"
+  ]
+}
