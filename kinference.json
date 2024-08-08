@@ -2,7 +2,7 @@
   "description": "Running ONNX models in vanilla Kotlin",
   "properties": [
     { "name": "v", "value": "0.2.22" },
-    { "name": "v-renovate-hint", "value": "update: package=io.kinference:inference-core" }
+    { "name": "v-renovate-hint", "value": "update: package=io.kinference:inference-core-jvm" }
   ],
   "link": "https://github.com/JetBrains-Research/kinference",
   "repositories": [
@@ -10,7 +10,7 @@
     "https://packages.jetbrains.team/maven/p/grazi/grazie-platform-public"
   ],
   "dependencies": [
-    "io.kinference:inference-core:$v"
+    "io.kinference:inference-core-jvm:$v"
   ],
   "imports": [
     "io.kinference.*",
@@ -38,7 +38,6 @@
     "io.kinference.core.operators.tensor.*",
     "io.kinference.core.optimizer.rules.*",
     "io.kinference.core.optimizer.rules.context.*",
-    "io.kinference.core.optimizer.rules.quantization.*",
-    "io.kinference.ndarray.arrays.*",
+    "io.kinference.ndarray.arrays.*"
   ]
 }
