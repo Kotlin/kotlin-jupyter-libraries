@@ -1,8 +1,12 @@
 {
   "link": "https://github.com/breandan/kaliningraph",
   "description": "Graph library with a DSL for constructing graphs and visualizing the behavior of graph algorithms",
+  "properties": [
+    { "name": "v", "value": "0.1.4" },
+    { "name": "v-renovate-hint", "value": "update: package=com.github.breandan:kaliningraph" }
+  ],
   "dependencies": [
-    "com.github.breandan:kaliningraph:0.1.4"
+    "com.github.breandan:kaliningraph:$v"
   ],
   "imports": [
     "edu.mcgill.kaliningraph.*",
