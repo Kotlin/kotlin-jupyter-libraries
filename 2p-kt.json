@@ -4,7 +4,7 @@
         { "name": "v", "value": "1.0.4" },
         { "name": "v-renovate-hint", "value": "update: package=it.unibo.tuprolog:full" }
     ],
-    "link": "https://github.com/gciatto/kt-math",
+    "link": "https://github.com/tuProlog/2p-kt",
     "dependencies": [
         "it.unibo.tuprolog:solve-classic-jvm:$v",
         "it.unibo.tuprolog:parser-theory-jvm:$v",
