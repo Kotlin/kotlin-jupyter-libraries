@@ -1,0 +1,44 @@
+{
+  "description": "Running ONNX models in vanilla Kotlin",
+  "properties": [
+    { "name": "v", "value": "0.2.22" },
+    { "name": "v-renovate-hint", "value": "update: package=io.kinference:inference-core" }
+  ],
+  "link": "https://github.com/JetBrains-Research/kinference",
+  "repositories": [
+    "https://packages.jetbrains.team/maven/p/ki/maven",
+    "https://packages.jetbrains.team/maven/p/grazi/grazie-platform-public"
+  ],
+  "dependencies": [
+    "io.kinference:inference-core:$v"
+  ],
+  "imports": [
+    "io.kinference.*",
+    "io.kinference.data.*",
+    "io.kinference.model.*",
+    "io.kinference.core.*",
+    "io.kinference.core.data.map.*",
+    "io.kinference.core.data.seq.*",
+    "io.kinference.core.data.tensor.*",
+    "io.kinference.core.graph.*",
+    "io.kinference.core.model.*",
+    "io.kinference.core.operators.*",
+    "io.kinference.core.operators.activations.*",
+    "io.kinference.core.operators.bitwise.*",
+    "io.kinference.core.operators.convolution.*",
+    "io.kinference.core.operators.flow.*",
+    "io.kinference.core.operators.layer.*",
+    "io.kinference.core.operators.logical.*",
+    "io.kinference.core.operators.math.*",
+    "io.kinference.core.operators.ml.*",
+    "io.kinference.core.operators.pool.*",
+    "io.kinference.core.operators.quantization.*",
+    "io.kinference.core.operators.reduce.*",
+    "io.kinference.core.operators.seq.*",
+    "io.kinference.core.operators.tensor.*",
+    "io.kinference.core.optimizer.rules.*",
+    "io.kinference.core.optimizer.rules.context.*",
+    "io.kinference.core.optimizer.rules.quantization.*",
+    "io.kinference.ndarray.arrays.*",
+  ]
+}
