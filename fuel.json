@@ -7,7 +7,7 @@
   "link": "https://github.com/kittinunf/fuel",
   "dependencies": [
     "com.github.kittinunf.fuel:fuel:$v",
-    "com.github.kittinunf.fuel:fuel-gson:$v",
+    "com.github.kittinunf.fuel:fuel-kotlinx-serialization:$v",
     "com.github.kittinunf.fuel:fuel-rxjava:$v",
     "com.github.kittinunf.fuel:fuel-coroutines:$v"
   ],
