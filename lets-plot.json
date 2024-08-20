@@ -37,6 +37,7 @@
     "org.jetbrains.letsPlot.bistro.qq.*",
     "org.jetbrains.letsPlot.bistro.joint.*",
     "org.jetbrains.letsPlot.bistro.residual.*",
+    "org.jetbrains.letsPlot.bistro.waterfall.*",
     "org.jetbrains.letsPlot.intern.toSpec",
     "org.jetbrains.letsPlot.spatial.SpatialDataset"
   ],
