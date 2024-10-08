@@ -16,43 +16,5 @@
     "org.jetbrains.lets-plot:platf-awt-jvm:$lib",
     "org.jetbrains.lets-plot:lets-plot-image-export:$lib",
     "io.github.microutils:kotlin-logging-jvm:2.0.5"
-  ],
-  "imports": [
-    "org.jetbrains.letsPlot.*",
-    "org.jetbrains.letsPlot.geom.*",
-    "org.jetbrains.letsPlot.geom.extras.*",
-    "org.jetbrains.letsPlot.stat.*",
-    "org.jetbrains.letsPlot.label.*",
-    "org.jetbrains.letsPlot.scale.*",
-    "org.jetbrains.letsPlot.facet.*",
-    "org.jetbrains.letsPlot.sampling.*",
-    "org.jetbrains.letsPlot.export.*",
-    "org.jetbrains.letsPlot.tooltips.*",
-    "org.jetbrains.letsPlot.annotations.*",
-    "org.jetbrains.letsPlot.themes.*",
-    "org.jetbrains.letsPlot.font.*",
-    "org.jetbrains.letsPlot.coord.*",
-    "org.jetbrains.letsPlot.pos.*",
-    "org.jetbrains.letsPlot.bistro.corr.*",
-    "org.jetbrains.letsPlot.bistro.qq.*",
-    "org.jetbrains.letsPlot.bistro.joint.*",
-    "org.jetbrains.letsPlot.bistro.residual.*",
-    "org.jetbrains.letsPlot.bistro.waterfall.*",
-    "org.jetbrains.letsPlot.intern.toSpec",
-    "org.jetbrains.letsPlot.spatial.SpatialDataset"
-  ],
-  "init": [
-    "import org.jetbrains.letsPlot.LetsPlot",
-    "import org.jetbrains.letsPlot.frontend.NotebookFrontendContext",
-    "val isolatedFrameParam = if(\"$isolatedFrame\".isNotEmpty()) \"$isolatedFrame\".toBoolean() else null",
-    "val frontendContext = LetsPlot.setupNotebook(\"$js\", isolatedFrameParam) {DISPLAY(HTML(it))}",
-    "LetsPlot.apiVersion = \"$api\"",
-    "// Load library JS",
-    "DISPLAY(HTML(frontendContext.getConfigureHtml()))"
-  ],
-  "renderers": {
-    "org.jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.intern.Plot))",
-    "org.jetbrains.letsPlot.intern.figure.SubPlotsFigure": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.intern.figure.SubPlotsFigure))",
-    "org.jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.GGBunch))"
-  }
+  ]
 }
