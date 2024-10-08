@@ -13,8 +13,5 @@
   "dependencies": [
     "org.jetbrains.lets-plot:lets-plot-kotlin-geotools:$api",
     "org.geotools:gt-geojson:$gt"
-  ],
-  "imports": [
-    "org.jetbrains.letsPlot.toolkit.geotools.toSpatialDataset"
   ]
 }
