@@ -1,11 +1,11 @@
 {
   "description": "Kotlin API for Lets-Plot: multiplatform plotting library based on Grammar of Graphics",
   "properties": [
-    { "name": "api", "value": "4.8.0" },
+    { "name": "api", "value": "4.9.0" },
     { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-kernel" },
-    { "name": "lib", "value": "4.4.0" },
+    { "name": "lib", "value": "4.5.1" },
     { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
-    { "name": "js", "value": "4.4.0" },
+    { "name": "js", "value": "4.5.1" },
     { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
     { "name": "isolatedFrame", "value": "" }
   ],
@@ -33,6 +33,7 @@
     "org.jetbrains.letsPlot.font.*",
     "org.jetbrains.letsPlot.coord.*",
     "org.jetbrains.letsPlot.pos.*",
+    "org.jetbrains.letsPlot.interact.*",
     "org.jetbrains.letsPlot.bistro.corr.*",
     "org.jetbrains.letsPlot.bistro.qq.*",
     "org.jetbrains.letsPlot.bistro.joint.*",
