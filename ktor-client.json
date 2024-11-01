@@ -1,7 +1,7 @@
 {
   "description": "Asynchronous HTTP client",
   "properties": [
-    { "name": "v", "value": "0.2.0-dev-11" },
+    { "name": "v", "value": "0.2.0-dev-29" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-ktor-client" }
   ],
   "link": "https://github.com/Kotlin/kotlin-jupyter-http-util",
