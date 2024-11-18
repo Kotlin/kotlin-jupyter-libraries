@@ -1,59 +1,12 @@
 {
   "description": "Kotlin API for Lets-Plot: multiplatform plotting library based on Grammar of Graphics",
   "properties": [
-    { "name": "api", "value": "4.9.0" },
-    { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-kernel" },
-    { "name": "lib", "value": "4.5.1" },
-    { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
-    { "name": "js", "value": "4.5.1" },
-    { "name": "lib-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-common" },
+    { "name": "api", "value": "4.8.0" },
+    { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-jupyter" },
     { "name": "isolatedFrame", "value": "" }
   ],
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
   "dependencies": [
-    "org.jetbrains.lets-plot:lets-plot-kotlin-kernel:$api",
-    "org.jetbrains.lets-plot:lets-plot-common:$lib",
-    "org.jetbrains.lets-plot:platf-awt-jvm:$lib",
-    "org.jetbrains.lets-plot:lets-plot-image-export:$lib",
-    "io.github.microutils:kotlin-logging-jvm:2.0.5"
-  ],
-  "imports": [
-    "org.jetbrains.letsPlot.*",
-    "org.jetbrains.letsPlot.geom.*",
-    "org.jetbrains.letsPlot.geom.extras.*",
-    "org.jetbrains.letsPlot.stat.*",
-    "org.jetbrains.letsPlot.label.*",
-    "org.jetbrains.letsPlot.scale.*",
-    "org.jetbrains.letsPlot.facet.*",
-    "org.jetbrains.letsPlot.sampling.*",
-    "org.jetbrains.letsPlot.export.*",
-    "org.jetbrains.letsPlot.tooltips.*",
-    "org.jetbrains.letsPlot.annotations.*",
-    "org.jetbrains.letsPlot.themes.*",
-    "org.jetbrains.letsPlot.font.*",
-    "org.jetbrains.letsPlot.coord.*",
-    "org.jetbrains.letsPlot.pos.*",
-    "org.jetbrains.letsPlot.interact.*",
-    "org.jetbrains.letsPlot.bistro.corr.*",
-    "org.jetbrains.letsPlot.bistro.qq.*",
-    "org.jetbrains.letsPlot.bistro.joint.*",
-    "org.jetbrains.letsPlot.bistro.residual.*",
-    "org.jetbrains.letsPlot.bistro.waterfall.*",
-    "org.jetbrains.letsPlot.intern.toSpec",
-    "org.jetbrains.letsPlot.spatial.SpatialDataset"
-  ],
-  "init": [
-    "import org.jetbrains.letsPlot.LetsPlot",
-    "import org.jetbrains.letsPlot.frontend.NotebookFrontendContext",
-    "val isolatedFrameParam = if(\"$isolatedFrame\".isNotEmpty()) \"$isolatedFrame\".toBoolean() else null",
-    "val frontendContext = LetsPlot.setupNotebook(\"$js\", isolatedFrameParam) {DISPLAY(HTML(it))}",
-    "LetsPlot.apiVersion = \"$api\"",
-    "// Load library JS",
-    "DISPLAY(HTML(frontendContext.getConfigureHtml()))"
-  ],
-  "renderers": {
-    "org.jetbrains.letsPlot.intern.Plot": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.intern.Plot))",
-    "org.jetbrains.letsPlot.intern.figure.SubPlotsFigure": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.intern.figure.SubPlotsFigure))",
-    "org.jetbrains.letsPlot.GGBunch": "HTML(frontendContext.getHtml($it as org.jetbrains.letsPlot.GGBunch))"
-  }
+    "org.jetbrains.lets-plot:lets-plot-kotlin-jupyter:$api"
+  ]
 }
