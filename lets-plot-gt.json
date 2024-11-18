@@ -2,13 +2,14 @@
   "description": "Lets-Plot visualisation for GeoTools toolkit",
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
   "properties": [
-    { "name": "v", "value": "4.9.1" },
-    { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-geotools-jupyter" }
+    { "name": "api", "value": "4.8.0" },
+    { "name": "api-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-geotools-jupyter" },
+    { "name": "isolatedFrame", "value": "" }
   ],
   "repositories": [
     "https://repo.osgeo.org/repository/release"
   ],
   "dependencies": [
-    "org.jetbrains.lets-plot:lets-plot-kotlin-geotools-jupyter:$v"
+    "org.jetbrains.lets-plot:lets-plot-kotlin-geotools-jupyter:$api"
   ]
 }
