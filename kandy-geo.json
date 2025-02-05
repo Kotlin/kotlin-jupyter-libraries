@@ -1,0 +1,29 @@
+{
+  "description": "Kotlin plotting DSL for Lets-Plot",
+  "properties": [
+    {
+      "name": "dataframeVersion",
+      "value": "0.15.0"
+    },
+    {
+      "name": "dataframeVersion-renovate-hint",
+      "value": "update: package=org.jetbrains.kotlinx:dataframe-geo"
+    },
+    {
+      "name": "kandyVersion",
+      "value": "0.8.0"
+    },
+    {
+      "name": "kandyVersion-renovate-hint",
+      "value": "update: package=org.jetbrains.kotlinx:kandy-geo"
+    }
+  ],
+  "link": "https://github.com/Kotlin/kandy",
+  "repositories": [
+    "https://repo.osgeo.org/repository/release"
+  ],
+  "dependencies": [
+    "org.jetbrains.kotlinx:dataframe-geo:$dataframeVersion",
+    "org.jetbrains.kotlinx:kandy-geo:$kandyVersion"
+  ]
+}
