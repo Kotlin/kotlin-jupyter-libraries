@@ -5,6 +5,9 @@
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:dataframe" }
   ],
   "link": "https://github.com/Kotlin/dataframe",
+  "init": [
+    "if (!\"$v\".startsWith('0')) USE { dependencies(\"org.jetbrains.kotlinx:dataframe-jupyter:$v\") }"
+  ],
   "dependencies": [
     "org.jetbrains.kotlinx:dataframe:$v"
   ],
