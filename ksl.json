@@ -1,7 +1,7 @@
 {
   "description": "KSL - Kotlin Simulation Library for Monte Carlo and Discrete-Event Simulation",
   "properties": [
-    { "name": "v", "value": "R1.1.9" },
+    { "name": "v", "value": "R1.2.0" },
     { "name": "v-renovate-hint", "value": "update: package=io.github.rossetti:KSLCore" }
   ],
   "link": "https://github.com/rossetti/KSL",
