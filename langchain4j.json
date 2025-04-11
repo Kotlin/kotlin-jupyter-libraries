@@ -1,0 +1,53 @@
+{
+  "description": "LangChain is a framework for building applications powered by LLMs, enabling easy integration of models, data, and external tools",
+  "properties": [
+    { "name": "v", "value": "1.0.0-beta3" },
+    { "name": "model", "value": "openai" },
+    { "name": "v-renovate-hint", "value": "update: package=dev.langchain4j:langchain4j" }
+  ],
+  "link": "https://github.com/langchain4j/langchain4j",
+  "init": [
+    "when(\"$model\") {\n    \"bedrock\" -> USE { dependencies(\"dev.langchain4j:langchain4j-bedrock:$v\") }\n    \"anthropic\" -> USE { dependencies(\"dev.langchain4j:langchain4j-anthropic:$v\") }\n    \"azure\" -> USE { dependencies(\"dev.langchain4j:langchain4j-azure-open-ai:$v\") }\n    \"googleai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-google-ai-gemini:$v\") }\n    \"vertexai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-vertex-ai-gemini:$v\") }\n    \"huggingface\" -> USE { dependencies(\"dev.langchain4j:langchain4j-hugging-face:$v\") }\n    \"ollama\" -> USE { dependencies(\"dev.langchain4j:langchain4j-ollama:$v\") }\n    \"openai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-open-ai:$v\") }\n    \"openaiofficial\" -> USE { dependencies(\"dev.langchain4j:langchain4j-open-ai-official:$v\") }\n    else -> error(\"Not recognized dependency '$input'. Use follow models: `bedrock`, `anthropic`, `azure`, `googleai`, `vertexai`, `huggingface`, `ollama`, `openai`, `openaiofficial`\")\n}"
+  ],
+  "dependencies": [
+    "dev.langchain4j:langchain4j:$v"
+  ],
+  "imports": [
+    "import dev.langchain4j.spi.*",
+    "import dev.langchain4j.data.document.*",
+    "import dev.langchain4j.data.message.*",
+    "import dev.langchain4j.data.embedding.*",
+    "import dev.langchain4j.data.image.*",
+    "import dev.langchain4j.data.pdf.*",
+    "import dev.langchain4j.data.audio.*",
+    "import dev.langchain4j.data.segment.*",
+    "import dev.langchain4j.data.text.*",
+    "import dev.langchain4j.data.video.*",
+    "import dev.langchain4j.rag.*",
+    "import dev.langchain4j.rag.query.*",
+    "import dev.langchain4j.rag.query.transformer.*",
+    "import dev.langchain4j.rag.query.router.*",
+    "import dev.langchain4j.rag.content.*",
+    "import dev.langchain4j.rag.content.injector.*",
+    "import dev.langchain4j.rag.content.retriever.*",
+    "import dev.langchain4j.rag.content.aggregator.*",
+    "import dev.langchain4j.web.search.*",
+    "import dev.langchain4j.agent.tool.*",
+    "import dev.langchain4j.store.memory.chat.*",
+    "import dev.langchain4j.store.embedding.*",
+    "import dev.langchain4j.model.$model.*",
+    "import dev.langchain4j.model.embedding.*",
+    "import dev.langchain4j.model.image.*",
+    "import dev.langchain4j.model.input.structured.*",
+    "import dev.langchain4j.model.input.*",
+    "import dev.langchain4j.model.chat.*",
+    "import dev.langchain4j.model.language.*",
+    "import dev.langchain4j.model.moderation.*",
+    "import dev.langchain4j.model.output.*",
+    "import dev.langchain4j.model.*",
+    "import dev.langchain4j.service.tool.*",
+    "import dev.langchain4j.service.memory.*",
+    "import dev.langchain4j.service.output.*",
+    "import dev.langchain4j.service.*"
+  ]
+}
