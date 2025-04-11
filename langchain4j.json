@@ -7,7 +7,7 @@
   ],
   "link": "https://github.com/langchain4j/langchain4j",
   "init": [
-    "when(\"$model\") {\n    \"bedrock\" -> USE { dependencies(\"dev.langchain4j:langchain4j-bedrock:$v\") }\n    \"anthropic\" -> USE { dependencies(\"dev.langchain4j:langchain4j-anthropic:$v\") }\n    \"azure\" -> USE { dependencies(\"dev.langchain4j:langchain4j-azure-open-ai:$v\") }\n    \"googleai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-google-ai-gemini:$v\") }\n    \"vertexai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-vertex-ai-gemini:$v\") }\n    \"huggingface\" -> USE { dependencies(\"dev.langchain4j:langchain4j-hugging-face:$v\") }\n    \"ollama\" -> USE { dependencies(\"dev.langchain4j:langchain4j-ollama:$v\") }\n    \"openai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-open-ai:$v\") }\n    \"openaiofficial\" -> USE { dependencies(\"dev.langchain4j:langchain4j-open-ai-official:$v\") }\n    else -> error(\"Not recognized dependency '$input'. Use follow models: `bedrock`, `anthropic`, `azure`, `googleai`, `vertexai`, `huggingface`, `ollama`, `openai`, `openaiofficial`\")\n}"
+    "when($model) {\n    \"bedrock\" -> USE { dependencies(\"dev.langchain4j:langchain4j-bedrock:$v\"); import(\"dev.langchain4j.model.bedrock.*\") }\n    \"anthropic\" -> USE { dependencies(\"dev.langchain4j:langchain4j-anthropic:$v\"); import(\"dev.langchain4j.model.anthropic.*\") }\n    \"azure\" -> USE { dependencies(\"dev.langchain4j:langchain4j-azure-open-ai:$v\"); import(\"dev.langchain4j.model.azure.*\") }\n    \"googleai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-google-ai-gemini:$v\"); import(\"dev.langchain4j.model.googleai.*\") }\n    \"vertexai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-vertex-ai-gemini:$v\"); import(\"dev.langchain4j.model.vertexai.*\") }\n    \"huggingface\" -> USE { dependencies(\"dev.langchain4j:langchain4j-hugging-face:$v\"); import(\"dev.langchain4j.model.huggingface.*\") }\n    \"ollama\" -> USE { dependencies(\"dev.langchain4j:langchain4j-ollama:$v\"); import(\"dev.langchain4j.model.ollama.*\") }\n    \"openai\" -> USE { dependencies(\"dev.langchain4j:langchain4j-open-ai:$v\"); import(\"dev.langchain4j.model.openai.*\") }\n    \"openaiofficial\" -> USE { dependencies(\"dev.langchain4j:langchain4j-open-ai-official:$v\"); import(\"dev.langchain4j.model.openaiofficial.*\") }\n    else -> error(\"Not recognized dependency '$model'. Use follow models: `bedrock`, `anthropic`, `azure`, `googleai`, `vertexai`, `huggingface`, `ollama`, `openai`, `openaiofficial`\")\n}"
   ],
   "dependencies": [
     "dev.langchain4j:langchain4j:$v"
@@ -35,7 +35,6 @@
     "import dev.langchain4j.agent.tool.*",
     "import dev.langchain4j.store.memory.chat.*",
     "import dev.langchain4j.store.embedding.*",
-    "import dev.langchain4j.model.$model.*",
     "import dev.langchain4j.model.embedding.*",
     "import dev.langchain4j.model.image.*",
     "import dev.langchain4j.model.input.structured.*",
