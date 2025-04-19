@@ -28,6 +28,13 @@
         'https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven',
       ],
     },
+    // Ignore -SNAPSHOT versions
+    {
+      allowedVersions: '!/[-.]SNAPSHOT/',
+      matchPackageNames: [
+        '/.*/',
+      ],
+    },
     // Ignore -dev versions, because in maven 1.0 < 1.0-dev
     {
       allowedVersions: '!/[-.]dev/',
