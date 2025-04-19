@@ -1,5 +1,5 @@
 {
-  "description": "Extended functionality for Jupyter kernel",
+  "description": "Extended functionality for Jupyter kernel: LaTeX outputs, web-based images, graphs API",
   "properties": [
     { "name": "v", "value": "$kernelMavenVersion" }
   ],
