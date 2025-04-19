@@ -30,7 +30,7 @@
     },
     // Ignore -SNAPSHOT versions
     {
-      allowedVersions: '!/[-.](SNAPSHOT|snapshot)/',
+      allowedVersions: '!/.*[-.]((SNAPSHOT)|(snapshot))$/',
       matchPackageNames: [
         '/.*/',
       ],
