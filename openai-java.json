@@ -1,0 +1,11 @@
+{
+  "description": "OpenAI official Java API",
+  "properties": [
+    { "name": "v", "value": "1.6.0" },
+    { "name": "v-renovate-hint", "value": "update: package=com.openai:openai-java" }
+  ],
+  "link": "https://github.com/openai/openai-java",
+  "dependencies": [
+    "com.openai:openai-java:$v"
+  ]
+}
