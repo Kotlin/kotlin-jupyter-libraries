@@ -21,7 +21,6 @@
     "dev.langchain4j.data.pdf.*",
     "dev.langchain4j.data.audio.*",
     "dev.langchain4j.data.segment.*",
-    "dev.langchain4j.data.text.*",
     "dev.langchain4j.data.video.*",
     "dev.langchain4j.rag.*",
     "dev.langchain4j.rag.query.*",
