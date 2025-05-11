@@ -1,0 +1,28 @@
+{
+  "description": "Spring AI is a specialized application framework designed for AI engineering, providing seamless integration with local models powered by Ollama.",
+  "properties": [
+    { "name": "v", "value": "1.0.0-M8" },
+    { "name": "v-renovate-hint", "value": "update: package=org.springframework.ai:spring-ai-bom" }
+  ],
+  "link": "https://github.com/spring-projects/spring-ai",
+  "dependencies": [
+    "org.springframework.ai:spring-ai-starter-model-ollama:$v"
+  ],
+  "imports": [
+    "org.springframework.ai.ollama.*",
+    "org.springframework.ai.ollama.api.*",
+    "org.springframework.ai.chat.client.*",
+    "org.springframework.ai.chat.prompt.*",
+    "org.springframework.ai.chat.model.*",
+    "org.springframework.ai.chat.messages.*",
+    "org.springframework.ai.tool.*",
+    "org.springframework.ai.tool.function.*",
+    "org.springframework.ai.tool.annotation.*",
+    "org.springframework.ai.tool.method.*",
+    "org.springframework.ai.chat.client.advisor.*",
+    "org.springframework.ai.chat.memory.*",
+    "org.springframework.ai.document.*",
+    "org.springframework.ai.image.*",
+    "org.springframework.ai.audio.transcription.*"
+  ]
+}
