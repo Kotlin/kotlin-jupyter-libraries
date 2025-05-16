@@ -33,8 +33,7 @@
       allowedVersions: '!/[-.]((dev)|(SNAPSHOT)|(snapshot))/',
       matchPackageNames: [
         '/.*/',
-      ],
-      updateTypes: ["major", "minor", "patch"]
+      ]
     },
     // Allow -dev versions if it's already using one
     {
