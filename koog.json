@@ -1,14 +1,8 @@
 {
   "description": "Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin.",
   "properties": [
-    {
-      "name": "v",
-      "value": "0.1.0"
-    },
-    {
-      "name": "v-renovate-hint",
-      "value": "update: package=ai.koog:koog-agents-jvm"
-    }
+    { "name": "v", "value": "0.1.0" },
+    { "name": "v-renovate-hint", "value": "update: package=ai.koog:koog-agents-jvm" }
   ],
   "link": "https://github.com/JetBrains/koog",
   "dependencies": [
@@ -17,11 +11,8 @@
   "imports": [
     "ai.koog.agents.core.agent.*",
     "ai.koog.agents.core.agent.config.*",
-    "ai.koog.agents.core.agent.context.*",
-    "ai.koog.agents.core.agent.entity.*",
     "ai.koog.agents.core.dsl.builder.*",
     "ai.koog.agents.core.dsl.extension.*",
-    "ai.koog.agents.core.environment.*",
     "ai.koog.agents.core.feature.*",
     "ai.koog.agents.core.feature.handler.*",
     "ai.koog.agents.core.tools.*",
