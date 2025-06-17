@@ -1,0 +1,39 @@
+{
+  "description": "Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin.",
+  "properties": [
+    { "name": "v", "value": "0.1.0" },
+    { "name": "v-renovate-hint", "value": "update: package=ai.koog:koog-agents-jvm" }
+  ],
+  "link": "https://github.com/JetBrains/koog",
+  "dependencies": [
+    "ai.koog:koog-agents-jvm:$v"
+  ],
+  "imports": [
+    "ai.koog.agents.core.agent.*",
+    "ai.koog.agents.core.agent.config.*",
+    "ai.koog.agents.core.dsl.builder.*",
+    "ai.koog.agents.core.dsl.extension.*",
+    "ai.koog.agents.core.feature.*",
+    "ai.koog.agents.core.feature.handler.*",
+    "ai.koog.agents.core.tools.*",
+    "ai.koog.agents.core.tools.annotations.*",
+    "ai.koog.agents.core.tools.reflect.*",
+    "ai.koog.agents.ext.agent.*",
+    "ai.koog.agents.ext.tool.*",
+    "ai.koog.agents.mcp.*",
+    "ai.koog.prompt.dsl.*",
+    "ai.koog.prompt.executor.clients.anthropic.*",
+    "ai.koog.prompt.executor.clients.google.*",
+    "ai.koog.prompt.executor.clients.openai.*",
+    "ai.koog.prompt.executor.clients.openrouter.*",
+    "ai.koog.prompt.executor.llms.*",
+    "ai.koog.prompt.executor.llms.all.*",
+    "ai.koog.prompt.executor.model.*",
+    "ai.koog.prompt.executor.ollama.client.*",
+    "ai.koog.prompt.executor.ollama.client.dto.*",
+    "ai.koog.prompt.llm.*",
+    "ai.koog.prompt.message.*",
+    "ai.koog.prompt.params.*",
+    "ai.koog.prompt.structure.json.*"
+  ]
+}
