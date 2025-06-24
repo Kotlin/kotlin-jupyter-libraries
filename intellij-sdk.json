@@ -9,6 +9,6 @@
     "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
   ],
   "dependencies": [
-    "org.jetbrains.kotlinx:kotlin-jupyter-intellij:$v"
+    "org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform:$v"
   ]
 }
