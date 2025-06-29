@@ -1,7 +1,7 @@
 {
   "description": "HTTP networking library",
   "properties": [
-    { "name": "v", "value": "2.3.1" },
+    { "name": "v", "value": "3.0.0-alpha04" },
     { "name": "v-renovate-hint", "value": "update: package=com.github.kittinunf.fuel:fuel" }
   ],
   "link": "https://github.com/kittinunf/fuel",
