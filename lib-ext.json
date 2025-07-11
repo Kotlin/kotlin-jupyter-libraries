@@ -6,5 +6,8 @@
   "link": "https://github.com/Kotlin/kotlin-jupyter",
   "dependencies": [
     "org.jetbrains.kotlinx:kotlin-jupyter-lib-ext:$v"
+  ],
+  "repositories": [
+    "https://redirector.kotlinlang.org/maven/bootstrap"
   ]
 }
