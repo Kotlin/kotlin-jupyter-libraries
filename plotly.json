@@ -10,6 +10,6 @@
     "https://maven.pkg.jetbrains.space/kotlin/p/kotlin/kotlin-js-wrappers"
   ],
   "dependencies": [
-    "space.kscience:plotlykt-jupyter:$v"
+    "space.kscience:plotlykt-jupyter-jvm:$v"
   ]
 }
