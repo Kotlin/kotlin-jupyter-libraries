@@ -1,7 +1,7 @@
 {
   "description": "OpenAI official Java API",
   "properties": [
-    { "name": "v", "value": "2.19.2" },
+    { "name": "v", "value": "2.20.1" },
     { "name": "v-renovate-hint", "value": "update: package=com.openai:openai-java" }
   ],
   "link": "https://github.com/openai/openai-java",
