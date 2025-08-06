@@ -1,7 +1,7 @@
 {
   "description": "Kotlin plotting DSL for Lets-Plot",
   "properties": [
-    { "name": "kandyVersion", "value": "0.8.1-dev-67" },
+    { "name": "kandyVersion", "value": "0.8.1-local-5-dev-74" },
     { "name": "kandyVersion-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kandy-lets-plot" },
     { "name": "statsVersion", "value": "0.4.2-dev-2" }
   ],
