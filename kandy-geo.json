@@ -1,7 +1,7 @@
 {
   "description": "Geo extensions for Kandy and Kotlin Dataframe",
   "properties": [
-    { "name": "kandyVersion", "value": "0.8.1-dev-67" },
+    { "name": "kandyVersion", "value": "0.9.0-dev-86" },
     { "name": "kandyVersion-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kandy-geo" },
     { "name": "dataframeVersion", "value": "1.0.0-dev-7089" },
     { "name": "dataframeVersion-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:dataframe-geo" }
