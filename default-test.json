@@ -1,0 +1,6 @@
+{
+  "description": "Default imports: dataframe and Kandy libraries",
+  "init": [
+    "%use dataframe, kandy"
+  ]
+}
