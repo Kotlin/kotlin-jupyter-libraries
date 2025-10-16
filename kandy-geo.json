@@ -13,7 +13,6 @@
   "dependencies": [
     "org.jetbrains.kotlinx:dataframe-geo-jupyter:$dataframeVersion",
     "org.jetbrains.kotlinx:dataframe-geo:$dataframeVersion",
-    "org.jetbrains.kotlinx:kandy-geo:$kandyVersion",
-    "org.apache.logging.log4j:log4j-core:2.20.0"
+    "org.jetbrains.kotlinx:kandy-geo:$kandyVersion"
   ]
 }
