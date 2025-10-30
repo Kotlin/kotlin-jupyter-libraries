@@ -22,7 +22,6 @@
     "ksl.utilities.random.robj.*",
     "ksl.utilities.random.*",
     "ksl.utilities.KSLArrays",
-    "ksl.utilities.maps.*",
     "ksl.simulation.*",
     "ksl.modeling.variable.*",
     "ksl.modeling.queue.*",
