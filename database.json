@@ -1,7 +1,7 @@
 {
   "description": "Database Connection Helper Functions",
   "properties": [
-    { "name": "v", "value": "0.0.4-19" },
+    { "name": "v", "value": "1" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-database" }
   ],
   "link": "https://github.com/Kotlin/kotlin-jupyter-database",
