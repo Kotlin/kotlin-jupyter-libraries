@@ -52,6 +52,14 @@
     // Ignore pushed by mistake versions
     {
       matchPackageNames: [
+        'org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform',
+        'kotlinx:kotlin-jupyter-database',
+      ],
+      allowedVersions: '!/^1$/',
+    },
+    // Ignore pushed by mistake versions
+    {
+      matchPackageNames: [
         'com.github.gabrielfeo:gradle-enterprise-api-kotlin',
       ],
       allowedVersions: '!/^0\\.999.*$/',
