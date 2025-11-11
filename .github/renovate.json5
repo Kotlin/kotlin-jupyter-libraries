@@ -53,7 +53,7 @@
     {
       matchPackageNames: [
         'org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform',
-        'kotlinx:kotlin-jupyter-database',
+        'org.jetbrains.kotlinx:kotlin-jupyter-database',
       ],
       allowedVersions: '!/^1$/',
     },
