@@ -1,7 +1,7 @@
 {
   "description": "Kotlin date/time library",
   "properties": [
-    { "name": "v", "value": "0.6.2" },
+    { "name": "v", "value": "0.7.1-0.6.x-compat" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlinx-datetime" }
   ],
   "link": "https://github.com/Kotlin/kotlinx-datetime",
