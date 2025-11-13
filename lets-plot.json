@@ -4,7 +4,10 @@
     { "name": "v", "value": "4.11.2" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-jupyter" },
     { "name": "isolatedFrame", "value": "" },
-    { "name": "webOnly", "value": "false" }
+    { "name": "addWebOutput", "value": "true" },
+    { "name": "addKTNBOutput", "value": "true" },
+    { "name": "addStaticSvg", "value": "true" },
+    { "name": "addStaticPng", "value": "false" }
   ],
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
   "dependencies": [
