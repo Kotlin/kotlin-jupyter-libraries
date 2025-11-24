@@ -1,8 +1,8 @@
 {
   "description": "Experimental `%javascript`/`%typescript`/`%jsx` line magic support",
   "properties": [
-    { "name": "v", "value": "0.7.0" },
-    { "name": "v-renovate-hint", "value": "update: package=dev.yidafu.jupyter:jupyter-js" }
+    { "name": "v", "value": "0.8.0" },
+    { "name": "v-renovate-hint", "value": "update: upgrade swc to v48.0.4 and compatible with v0.16" }
   ],
   "link": "https://github.com/yidafu/kotlin-jupyter-js",
   "dependencies": [
