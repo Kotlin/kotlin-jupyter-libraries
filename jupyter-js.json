@@ -7,8 +7,5 @@
   "link": "https://github.com/yidafu/kotlin-jupyter-js",
   "dependencies": [
     "dev.yidafu.jupyter:jupyter-js:$v"
-  ],
-  "imports": [
-    "dev.yidafu.jupyper.jsExport"
   ]
 }
