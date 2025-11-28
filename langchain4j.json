@@ -1,7 +1,7 @@
 {
   "description": "LangChain is a framework for building applications powered by LLMs, enabling easy integration of models, data, and external tools",
   "properties": [
-    { "name": "v", "value": "1.8.0" },
+    { "name": "v", "value": "1.9.1" },
     { "name": "v-renovate-hint", "value": "update: package=dev.langchain4j:langchain4j" },
     { "name": "model", "value": "openai" }
   ],
