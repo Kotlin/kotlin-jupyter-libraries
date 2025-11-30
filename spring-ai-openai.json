@@ -10,7 +10,6 @@
   ],
   "imports": [
     "org.springframework.ai.openai.*",
-    "org.springframework.ai.openai.audio.speech.*",
     "org.springframework.ai.openai.api.*",
     "org.springframework.ai.chat.client.*",
     "org.springframework.ai.chat.prompt.*",
