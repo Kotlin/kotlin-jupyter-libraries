@@ -1,13 +1,10 @@
 {
   "description": "Kotlin API for Lets-Plot: multiplatform plotting library based on Grammar of Graphics",
   "properties": [
-    { "name": "v", "value": "4.11.2" },
+    { "name": "v", "value": "4.12.0" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.lets-plot:lets-plot-kotlin-jupyter" },
     { "name": "isolatedFrame", "value": "" },
-    { "name": "addWebOutput", "value": "true" },
-    { "name": "addKTNBOutput", "value": "true" },
-    { "name": "addStaticSvg", "value": "true" },
-    { "name": "addStaticPng", "value": "false" }
+    { "name": "output", "value": "js, ktnb, svg" }
   ],
   "link": "https://github.com/JetBrains/lets-plot-kotlin",
   "dependencies": [
