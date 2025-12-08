@@ -1,7 +1,7 @@
 {
   "description": "Interactive Advent of Code framework for Kotlin Notebook",
   "properties": [
-    { "name": "v", "value": "1.1.2" },
+    { "name": "v", "value": "1.2.6" },
     { "name": "v-renovate-hint", "value": "update: package=com.toldoven.aoc:aoc-kotlin-notebook" }
   ],
   "link": "https://github.com/Toldoven/aoc-kotlin-notebook",
