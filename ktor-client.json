@@ -5,9 +5,6 @@
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-ktor-client" }
   ],
   "link": "https://github.com/Kotlin/kotlin-jupyter-http-util",
-  "repositories": [
-    "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
-  ],
   "dependencies": [
     "org.jetbrains.kotlinx:kotlin-jupyter-ktor-client:$v"
   ]
