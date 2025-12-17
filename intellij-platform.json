@@ -5,9 +5,6 @@
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform" }
   ],
   "link": "https://plugins.jetbrains.com/docs/intellij/welcome.html",
-  "repositories": [
-    "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
-  ],
   "dependencies": [
     "org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform:$v"
   ]
