@@ -1,7 +1,7 @@
 {
   "description": "Spring AI is a application framework designed specifically for AI engineering, offering seamless integration with OpenAI models.",
   "properties": [
-    { "name": "v", "value": "1.1.0" },
+    { "name": "v", "value": "1.1.2" },
     { "name": "v-renovate-hint", "value": "update: package=org.springframework.ai:spring-ai-bom" }
   ],
   "link": "https://github.com/spring-projects/spring-ai",
