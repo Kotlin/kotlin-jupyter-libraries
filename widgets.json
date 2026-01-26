@@ -1,7 +1,7 @@
 {
   "description": "Kotlin API for ipywidgets frontend",
   "properties": [
-    { "name": "version", "value": "0.3.0-75" },
+    { "name": "version", "value": "0.3.0-76" },
     { "name": "version-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-widgets-jupyter" }
   ],
   "link": "https://github.com/Kotlin/kotlin-notebook-integrations/tree/master/integrations/widgets",
