@@ -1,7 +1,7 @@
 {
   "description": "The IntelliJ Platform integration to bridge Kotlin Notebook with the IntelliJ Platform SDK and the IntelliJ IDEA runtime for seamless code execution and interactive development",
   "properties": [
-    { "name": "v", "value": "0.3.0-85" },
+    { "name": "v", "value": "0.3.0-86" },
     { "name": "v-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform" }
   ],
   "link": "https://plugins.jetbrains.com/docs/intellij/welcome.html",
