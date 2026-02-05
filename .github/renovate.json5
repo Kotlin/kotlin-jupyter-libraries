@@ -10,7 +10,6 @@
   prHourlyLimit: 0,
   rebaseWhen: 'conflicted',
   ignoreUnstable: false,
-  ignoreTests: true,
   respectLatest: false,
   packageRules: [
     // Define repositories
