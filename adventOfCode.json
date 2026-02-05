@@ -8,6 +8,9 @@
   "dependencies": [
     "com.toldoven.aoc:aoc-kotlin-notebook:$v"
   ],
+  "repositories": [
+    "https://packages.jetbrains.team/maven/p/kds/kotlin-ds-maven"
+  ],
   "imports": [
     "com.toldoven.aoc.notebook.*"
   ]
