@@ -71,6 +71,7 @@
         'org.jetbrains.kotlinx:kotlin-jupyter-database',
         'org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform',
         'org.jetbrains.kotlinx:kotlin-jupyter-ktor-client',
+        'org.jetbrains.kotlinx:kotlin-jupyter-notekit-jupyter',
         'org.jetbrains.kotlinx:kotlin-jupyter-serialization',
         'org.jetbrains.kotlinx:kotlin-jupyter-widgets-jupyter',
       ],
