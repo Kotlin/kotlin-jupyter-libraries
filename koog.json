@@ -1,7 +1,7 @@
 {
   "description": "Koog is a Kotlin-based framework designed to build and run AI agents entirely in idiomatic Kotlin.",
   "properties": [
-    { "name": "v", "value": "0.6.1" },
+    { "name": "v", "value": "0.6.2" },
     { "name": "v-renovate-hint", "value": "update: package=ai.koog:koog-agents-jvm" }
   ],
   "link": "https://github.com/JetBrains/koog",
