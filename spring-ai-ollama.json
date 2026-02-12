@@ -1,7 +1,7 @@
 {
   "description": "Spring AI is a specialized application framework designed specifically for AI engineering, providing seamless integration with local models powered by Ollama.",
   "properties": [
-    { "name": "v", "value": "1.1.2" },
+    { "name": "v", "value": "2.0.0-M2" },
     { "name": "v-renovate-hint", "value": "update: package=org.springframework.ai:spring-ai-bom" }
   ],
   "link": "https://github.com/spring-projects/spring-ai",
