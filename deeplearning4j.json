@@ -23,7 +23,6 @@
     "org.slf4j:slf4j-api:$slf4j"
   ],
   "imports": [
-    "org.nd4j.config.*",
     "org.nd4j.linalg.activations.*",
     "org.nd4j.linalg.api.ndarray.INDArray",
     "org.nd4j.linalg.dataset.DataSet",
@@ -31,13 +30,11 @@
     "org.nd4j.linalg.factory.Nd4j",
     "org.nd4j.linalg.learning.config.*",
     "org.nd4j.linalg.lossfunctions.LossFunctions.*",
-    "org.deeplearning4j.eval.Evaluation",
     "org.deeplearning4j.nn.conf.*",
     "org.deeplearning4j.nn.conf.layers.*",
     "org.deeplearning4j.nn.multilayer.MultiLayerNetwork",
     "org.deeplearning4j.nn.weights.WeightInit",
-    "org.deeplearning4j.optimize.listeners.ScoreIterationListener",
-    "org.deeplearning4j.datasets.iterator.impl.ListDataSetIterator"
+    "org.deeplearning4j.optimize.listeners.ScoreIterationListener"
   ],
   "init": [
   ]
