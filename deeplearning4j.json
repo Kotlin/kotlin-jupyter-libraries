@@ -15,7 +15,6 @@
     "org.nd4j:nd4j-native:$v",
     "org.nd4j:nd4j-native-platform:$v",
     "org.deeplearning4j:deeplearning4j-core:$v",
-    "org.deeplearning4j:deeplearning4j-common:$v",
     "org.deeplearning4j:deeplearning4j-datasets:$v",
     "org.deeplearning4j:deeplearning4j-nn:$v",
     "org.deeplearning4j:deeplearning4j-nlp:$v",
