@@ -35,7 +35,7 @@
       allowedVersions: '!/[-.]((dev)|(SNAPSHOT)|(snapshot))/',
       matchPackageNames: [
         '/.*/',
-      ]
+      ],
     },
     // Allow -dev versions if it's already using one
     {
@@ -82,7 +82,9 @@
     },
     // Auto-merge for selected artifacts
     {
-      matchDatasources: ['maven'],
+      matchDatasources: [
+        'maven',
+      ],
       matchPackageNames: [
         'org.jetbrains.kotlinx:kotlin-jupyter-database',
         'org.jetbrains.kotlinx:kotlin-jupyter-intellij-platform',
@@ -101,8 +103,8 @@
       customType: 'regex',
       datasourceTemplate: 'maven',
       versioningTemplate: 'maven',
-      fileMatch: [
-        '.*\\.json5',
+      managerFilePatterns: [
+        '/.*\\.json5/',
       ],
       matchStrings: [
         '^\\s*"(?<depName>[^":\\$]+:[^":\\$]+):(?<currentValue>[^":\\$]+)"',
@@ -113,8 +115,8 @@
       customType: 'regex',
       datasourceTemplate: 'maven',
       versioningTemplate: 'maven',
-      fileMatch: [
-        '.*\\.json',
+      managerFilePatterns: [
+        '/.*\\.json/',
       ],
       matchStrings: [
         '(?:{ *"name": *)?".+?"[:,] *(?:"value": *)?"(?<currentValue>.+?)"(?: *})?,\\s*(?:{ *"name": *)?"\\S+-renovate-hint"[:,] *(?:"value": *)?"update: +package=(?<depName>\\S+?)"',
