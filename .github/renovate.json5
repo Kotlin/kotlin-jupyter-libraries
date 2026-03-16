@@ -71,6 +71,13 @@
       ],
       allowedVersions: '!/^0\\.7\\.1-0\\.6\\.x-compat$/',
     },
+    // Ignore non-working nd4j version
+    {
+      matchPackageNames: [
+        'org.nd4j:nd4j-api',
+      ],
+      allowedVersions: '!/^1\\.0\\.0-M2\\.1$/',
+    },
     // Ignore non-release versions of some libraries
     {
       matchPackageNames: [
