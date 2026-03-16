@@ -78,7 +78,7 @@
         'org.jetbrains.kotlinx:kotlin-deeplearning-api',
         'com.github.kittinunf.fuel:fuel',
       ],
-      allowedVersions: '!/^((alpha)|(beta)|(dev)|(rc))$/',
+      allowedVersions: '!/((alpha)|(beta)|(dev)|(rc))/',
     },
     // Auto-merge for selected artifacts
     {
