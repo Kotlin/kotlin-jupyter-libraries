@@ -64,6 +64,22 @@
       ],
       allowedVersions: '!/^0\\.999.*$/',
     },
+    // Ignore utility datetime version
+    {
+      matchPackageNames: [
+        'org.jetbrains.kotlinx:kotlinx-datetime',
+      ],
+      allowedVersions: '!/^0\\.7\\.1-0\\.6\\.x-compat$/',
+    },
+    // Ignore non-release versions of some libraries
+    {
+      matchPackageNames: [
+        'org.slf4j:slf4j-api',
+        'org.jetbrains.kotlinx:kotlin-deeplearning-api',
+        'com.github.kittinunf.fuel:fuel',
+      ],
+      allowedVersions: '!/^((alpha)|(beta)|(dev)|(rc))$/',
+    },
     // Auto-merge for selected artifacts
     {
       matchDatasources: ['maven'],
