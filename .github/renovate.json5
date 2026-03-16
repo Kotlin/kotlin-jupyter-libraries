@@ -76,7 +76,7 @@
       matchPackageNames: [
         'org.nd4j:nd4j-api',
       ],
-      allowedVersions: '!/^1\\.0\\.0-M2\\.1$/',
+      allowedVersions: '!/^1\\.0\\.0-M2(\\.1)?$/',
     },
     // Ignore non-release versions of some libraries
     {
