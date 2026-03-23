@@ -1,0 +1,23 @@
+{
+  "description": "Kotlin Multiplatform statistics library",
+  "properties": [
+    { "name": "v", "value": "0.3.0" },
+    { "name": "v-renovate-hint", "value": "update: package=org.oremif:kstats-core" }
+  ],
+  "link": "https://github.com/oremif/kstats",
+  "dependencies": [
+    "org.oremif:kstats-core-jvm:$v",
+    "org.oremif:kstats-distributions-jvm:$v",
+    "org.oremif:kstats-hypothesis-jvm:$v",
+    "org.oremif:kstats-correlation-jvm:$v",
+    "org.oremif:kstats-sampling-jvm:$v"
+  ],
+  "imports": [
+    "org.oremif.kstats.core.*",
+    "org.oremif.kstats.descriptive.*",
+    "org.oremif.kstats.distributions.*",
+    "org.oremif.kstats.hypothesis.*",
+    "org.oremif.kstats.correlation.*",
+    "org.oremif.kstats.sampling.*"
+  ]
+}
