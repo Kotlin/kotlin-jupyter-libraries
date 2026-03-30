@@ -10,7 +10,6 @@
   ],
   "imports": [
     "org.springframework.ai.anthropic.*",
-    "org.springframework.ai.anthropic.api.*",
     "org.springframework.ai.chat.client.*",
     "org.springframework.ai.chat.prompt.*",
     "org.springframework.ai.chat.model.*",
