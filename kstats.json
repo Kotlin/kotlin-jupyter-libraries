@@ -1,7 +1,7 @@
 {
   "description": "Kotlin Multiplatform statistics library",
   "properties": [
-    { "name": "v", "value": "0.3.0" },
+    { "name": "v", "value": "0.4.0" },
     { "name": "v-renovate-hint", "value": "update: package=org.oremif:kstats-core" }
   ],
   "link": "https://github.com/oremif/kstats",
