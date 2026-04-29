@@ -3,7 +3,7 @@
   "properties": [
     { "name": "kandyVersion", "value": "0.8.4" },
     { "name": "kandyVersion-renovate-hint", "value": "update: package=org.jetbrains.kotlinx:kandy-lets-plot" },
-    { "name": "statsVersion", "value": "0.8.3" }
+    { "name": "statsVersion", "value": "0.8.4" }
   ],
   "link": "https://github.com/Kotlin/kandy",
   "repositories": [
