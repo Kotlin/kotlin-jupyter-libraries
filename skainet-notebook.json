@@ -1,0 +1,11 @@
+{
+  "description": "SKaiNET: Kotlin-native deep learning framework with SIMD-accelerated CPU kernels, GGUF/ONNX/SafeTensors loaders, and StableHLO compilation",
+  "properties": [
+    { "name": "v", "value": "0.22.1" },
+    { "name": "v-renovate-hint", "value": "update: package=sk.ainet.app:kotlin-notebook" }
+  ],
+  "link": "https://github.com/SKaiNET-developers/skainet-notebook",
+  "dependencies": [
+    "sk.ainet.app:kotlin-notebook:$v"
+  ]
+}
