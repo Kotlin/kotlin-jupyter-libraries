@@ -6,7 +6,7 @@
     { "name": "cuda", "value": "11.2" },
     { "name": "slf4j", "value": "2.0.17" },
     { "name": "slf4j-renovate-hint", "value": "update: package=org.slf4j:slf4j-api" },
-    { "name": "freemarker", "value": "2.3.34" },
+    { "name": "freemarker", "value": "2.3.35" },
     { "name": "freemarker-renovate-hint", "value": "update: package=org.freemarker:freemarker" }
   ],
   "link": "https://github.com/eclipse/deeplearning4j",
